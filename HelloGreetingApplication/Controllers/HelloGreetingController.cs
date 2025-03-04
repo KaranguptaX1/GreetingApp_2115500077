@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ModelLayer.Model;
-
+using BusinessLayer.Interface;
+using System.Linq.Expressions;
 namespace HelloGreetingApplication.Controllers;
 
 [ApiController]
@@ -12,10 +13,11 @@ namespace HelloGreetingApplication.Controllers;
 public class HelloGreetingController : ControllerBase
 {
     private readonly ILogger<HelloGreetingController> _logger;
-
-    public HelloGreetingController(ILogger<HelloGreetingController> logger)
+    private readonly IGreetingBL _greetingBl;
+    public HelloGreetingController(ILogger<HelloGreetingController> logger, IGreetingBL greetingBl)
     {
         _logger = logger;
+        _greetingBl = greetingBl;
     }
 
     /// <summary>
@@ -121,6 +123,24 @@ public class HelloGreetingController : ControllerBase
             Message = $"Data with ID {id} deleted successfully.",
             Data = null
         };
+        return Ok(response);
+    }
+    /// <summary>
+    /// Get a Simple Greeting
+    /// </summary>
+    /// <returns>Hello World</returns>
+    [HttpGet("SimpleGreeting")]
+    public IActionResult SimpleGreeting()
+    {
+        _logger.LogInformation("Executing Simple Greeting");
+        string result = _greetingBl.SimpleGreeting();
+        var response = new ResponseModel<string>
+        {
+            Success = true,
+            Message = $"Got the SimpleGreeting {result}",
+            Data = result
+        };
+        _logger.LogInformation("SimpleGreeting Executed Successfully");
         return Ok(response);
     }
 }

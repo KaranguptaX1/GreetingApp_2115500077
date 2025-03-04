@@ -1,5 +1,6 @@
 using BusinessLayer.Service;
 using RepositoryLayer.Service;
+using BusinessLayer.Interface;
 using RepositoryLayer.Interface;
 //using Microsoft.EntityFrameworkCore;
 using NLog;
@@ -16,13 +17,14 @@ try
 
     // Add services to the container.
     builder.Services.AddControllers();
+    builder.Services.AddScoped<IGreetingBL, GreetingBL>();
 
     // Use Swagger for API documentation
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
 
     var app = builder.Build();
-
+    //Karan
     // Use Swagger Middleware
     app.UseSwagger();
     app.UseSwaggerUI(c =>

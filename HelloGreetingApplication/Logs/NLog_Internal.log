@@ -1047,3 +1047,284 @@
 2025-03-04 16:48:06.0532 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Warn] => console
 2025-03-04 16:48:06.0532 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Error] => console
 2025-03-04 16:48:06.0532 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Fatal] => console
+2025-03-04 17:19:56.0142 Debug Message Template Auto Format enabled
+2025-03-04 17:19:56.8978 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-04 17:19:56.8978 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-04 17:19:56.9189 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-04 17:19:56.9189 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-04 17:19:56.9189 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-04 17:19:56.9189 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-04 17:19:56.9573 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-04 17:19:56.9573 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-04 17:19:56.9573 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-04 17:19:56.9573 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-04 17:19:56.9693 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-04 17:19:56.9693 Trace ParseRulesElement
+2025-03-04 17:19:56.9982 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-04 17:19:57.0421 Debug --- NLog configuration dump ---
+2025-03-04 17:19:57.0421 Debug Targets:
+2025-03-04 17:19:57.0560 Debug ConsoleTarget(Name=console)
+2025-03-04 17:19:57.0560 Debug Rules:
+2025-03-04 17:19:57.0560 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-04 17:19:57.0626 Debug --- End of NLog configuration dump ---
+2025-03-04 17:19:57.0626 Trace FindReachableObject<System.Object>:
+2025-03-04 17:19:57.0626 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-04 17:19:57.0626 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-04 17:19:57.0626 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-04 17:19:57.0626 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-04 17:19:57.0626 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-04 17:19:57.0626 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-04 17:19:57.0626 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-04 17:19:57.0626 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 17:19:57.0626 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-04 17:19:57.0626 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 17:19:57.0778 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-04 17:19:57.0778 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 17:19:57.0778 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-04 17:19:57.0778 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-04 17:19:57.0778 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-04 17:19:57.0778 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-04 17:19:57.0778 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-04 17:19:57.0778 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-04 17:19:57.1050 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-04 17:19:57.1050 Trace Initializing Layout Renderer: ${exception}
+2025-03-04 17:19:57.1050 Trace Initializing Layout Renderer: ${literal}
+2025-03-04 17:19:57.1050 Trace Initializing Layout Renderer: ${message}
+2025-03-04 17:19:57.1050 Trace Initializing Layout Renderer: ${literal}
+2025-03-04 17:19:57.1094 Trace Initializing Layout Renderer: ${level}
+2025-03-04 17:19:57.1094 Trace Initializing Layout Renderer: ${literal}
+2025-03-04 17:19:57.1094 Trace Initializing Layout Renderer: ${longdate}
+2025-03-04 17:19:57.1094 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-04 17:19:57.1094 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-04 17:19:57.1094 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-04 17:19:57.1094 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-04 17:19:57.1094 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-04 17:19:57.1094 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 17:19:57.1094 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-04 17:19:57.1094 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 17:19:57.1094 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-04 17:19:57.1094 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 17:19:57.1094 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-04 17:19:57.1094 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-04 17:19:57.1263 Trace Initializing ConsoleTarget(Name=console)
+2025-03-04 17:19:57.1263 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-04 17:19:57.1263 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-04 17:19:57.1263 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-04 17:19:57.1263 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-04 17:19:57.1410 Info Configuration initialized.
+2025-03-04 17:19:57.1857 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-04 17:19:57.1857 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-04 17:19:57.1857 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-04 17:19:57.1857 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-04 17:19:57.1873 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-04 17:19:58.7316 Trace Assembly 'NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2025-03-04 17:19:58.7316 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2025-03-04 17:19:58.7444 Trace Assembly 'Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2025-03-04 17:19:58.7766 Trace Assembly 'NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2025-03-04 17:19:58.7766 Debug Skip loading NLogLoggingConfiguration from empty config section: NLog
+2025-03-04 17:19:58.7766 Trace FindReachableObject<System.Object>:
+2025-03-04 17:19:58.7766 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-04 17:19:58.7766 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-04 17:19:58.7766 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-04 17:19:58.7766 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-04 17:19:58.7874 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-04 17:19:58.7874 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-04 17:19:58.7874 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-04 17:19:58.7874 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 17:19:58.7874 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-04 17:19:58.7874 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 17:19:58.7874 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-04 17:19:58.7874 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 17:19:58.7874 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-04 17:19:58.7874 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-04 17:19:58.7874 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-04 17:19:58.7874 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-04 17:19:58.7874 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-04 17:19:58.7874 Trace Initializing Layout Renderer: ${exception}
+2025-03-04 17:19:58.7874 Trace Initializing Layout Renderer: ${literal}
+2025-03-04 17:19:58.7874 Trace Initializing Layout Renderer: ${message}
+2025-03-04 17:19:58.7874 Trace Initializing Layout Renderer: ${literal}
+2025-03-04 17:19:58.7874 Trace Initializing Layout Renderer: ${level}
+2025-03-04 17:19:58.7874 Trace Initializing Layout Renderer: ${literal}
+2025-03-04 17:19:58.7874 Trace Initializing Layout Renderer: ${longdate}
+2025-03-04 17:19:58.7874 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-04 17:19:58.7874 Trace Initializing ConsoleTarget(Name=console)
+2025-03-04 17:19:58.7874 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-04 17:19:58.7874 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-04 17:19:58.7874 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-04 17:19:58.7874 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-04 17:19:58.7874 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-04 17:19:58.7874 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-04 17:19:58.7874 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-04 17:19:58.8057 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-04 17:19:58.8057 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-04 17:19:58.8235 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime
+2025-03-04 17:19:58.8235 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Info] => console
+2025-03-04 17:19:58.8235 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Warn] => console
+2025-03-04 17:19:58.8235 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Error] => console
+2025-03-04 17:19:58.8235 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Fatal] => console
+2025-03-04 17:19:58.8552 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.Host
+2025-03-04 17:19:58.8552 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Info] => console
+2025-03-04 17:19:58.8552 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Warn] => console
+2025-03-04 17:19:58.8552 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Error] => console
+2025-03-04 17:19:58.8552 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Fatal] => console
+2025-03-04 17:19:58.8552 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Hosting.Lifetime
+2025-03-04 17:19:58.8552 Debug Logger Microsoft.Hosting.Lifetime [Info] => console
+2025-03-04 17:19:58.8552 Debug Logger Microsoft.Hosting.Lifetime [Warn] => console
+2025-03-04 17:19:58.8552 Debug Logger Microsoft.Hosting.Lifetime [Error] => console
+2025-03-04 17:19:58.8552 Debug Logger Microsoft.Hosting.Lifetime [Fatal] => console
+2025-03-04 17:19:59.0219 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer
+2025-03-04 17:19:59.0219 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Info] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Warn] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Error] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Fatal] => console
+2025-03-04 17:19:59.0229 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Info] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Warn] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Error] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Fatal] => console
+2025-03-04 17:19:59.0229 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Info] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Warn] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Error] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Fatal] => console
+2025-03-04 17:19:59.0229 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Info] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Warn] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Error] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Fatal] => console
+2025-03-04 17:19:59.0229 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Connections
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Info] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Warn] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Error] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Fatal] => console
+2025-03-04 17:19:59.0229 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Http2
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Info] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Warn] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Error] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Fatal] => console
+2025-03-04 17:19:59.0229 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Http3
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Info] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Warn] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Error] => console
+2025-03-04 17:19:59.0229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Fatal] => console
+2025-03-04 17:19:59.1814 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication
+2025-03-04 17:19:59.1814 Debug Logger HelloGreetingApplication [Info] => console
+2025-03-04 17:19:59.1814 Debug Logger HelloGreetingApplication [Warn] => console
+2025-03-04 17:19:59.1814 Debug Logger HelloGreetingApplication [Error] => console
+2025-03-04 17:19:59.1814 Debug Logger HelloGreetingApplication [Fatal] => console
+2025-03-04 17:19:59.3026 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter
+2025-03-04 17:19:59.3026 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Info] => console
+2025-03-04 17:19:59.3040 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Warn] => console
+2025-03-04 17:19:59.3040 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Error] => console
+2025-03-04 17:19:59.3040 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Fatal] => console
+2025-03-04 17:19:59.4706 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory
+2025-03-04 17:19:59.4706 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Info] => console
+2025-03-04 17:19:59.4706 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Warn] => console
+2025-03-04 17:19:59.4706 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Error] => console
+2025-03-04 17:19:59.4706 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Fatal] => console
+2025-03-04 17:19:59.4824 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder
+2025-03-04 17:19:59.4824 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Info] => console
+2025-03-04 17:19:59.4824 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Warn] => console
+2025-03-04 17:19:59.4824 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Error] => console
+2025-03-04 17:19:59.4824 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Fatal] => console
+2025-03-04 17:19:59.4824 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+2025-03-04 17:19:59.4824 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Info] => console
+2025-03-04 17:19:59.4824 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Warn] => console
+2025-03-04 17:19:59.4824 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Error] => console
+2025-03-04 17:19:59.4824 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Fatal] => console
+2025-03-04 17:19:59.5923 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Hosting.Diagnostics
+2025-03-04 17:19:59.5923 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Info] => console
+2025-03-04 17:19:59.5923 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Warn] => console
+2025-03-04 17:19:59.5923 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Error] => console
+2025-03-04 17:19:59.5923 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Fatal] => console
+2025-03-04 17:19:59.6834 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware
+2025-03-04 17:19:59.6834 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Info] => console
+2025-03-04 17:19:59.6834 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Warn] => console
+2025-03-04 17:19:59.6834 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Error] => console
+2025-03-04 17:19:59.6834 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Fatal] => console
+2025-03-04 17:19:59.6834 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+2025-03-04 17:19:59.6834 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Info] => console
+2025-03-04 17:19:59.6834 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warn] => console
+2025-03-04 17:19:59.6834 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Error] => console
+2025-03-04 17:19:59.6834 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Fatal] => console
+2025-03-04 17:19:59.7650 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+2025-03-04 17:19:59.7650 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Info] => console
+2025-03-04 17:19:59.7650 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Warn] => console
+2025-03-04 17:19:59.7650 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Error] => console
+2025-03-04 17:19:59.7650 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Fatal] => console
+2025-03-04 17:20:00.0147 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware
+2025-03-04 17:20:00.0147 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Info] => console
+2025-03-04 17:20:00.0147 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Warn] => console
+2025-03-04 17:20:00.0147 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Error] => console
+2025-03-04 17:20:00.0147 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Fatal] => console
+2025-03-04 17:20:00.0630 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+2025-03-04 17:20:00.0630 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Info] => console
+2025-03-04 17:20:00.0630 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Warn] => console
+2025-03-04 17:20:00.0630 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] => console
+2025-03-04 17:20:00.0630 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Fatal] => console
+2025-03-04 17:20:00.0630 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware
+2025-03-04 17:20:00.0630 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Info] => console
+2025-03-04 17:20:00.0630 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Warn] => console
+2025-03-04 17:20:00.0630 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Error] => console
+2025-03-04 17:20:00.0630 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Fatal] => console
+2025-03-04 17:20:00.0700 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware
+2025-03-04 17:20:00.0700 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Info] => console
+2025-03-04 17:20:00.0700 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Warn] => console
+2025-03-04 17:20:00.0700 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Error] => console
+2025-03-04 17:20:00.0700 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Fatal] => console
+2025-03-04 17:20:00.1333 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware
+2025-03-04 17:20:00.1333 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Info] => console
+2025-03-04 17:20:00.1333 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Warn] => console
+2025-03-04 17:20:00.1333 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Error] => console
+2025-03-04 17:20:00.1333 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Fatal] => console
+2025-03-04 17:20:00.1333 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware
+2025-03-04 17:20:00.1333 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Info] => console
+2025-03-04 17:20:00.1333 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Warn] => console
+2025-03-04 17:20:00.1333 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Error] => console
+2025-03-04 17:20:00.1333 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Fatal] => console
+2025-03-04 17:20:00.5749 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets
+2025-03-04 17:20:00.5749 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Info] => console
+2025-03-04 17:20:00.5749 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Warn] => console
+2025-03-04 17:20:00.5749 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Error] => console
+2025-03-04 17:20:00.5749 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Fatal] => console
+2025-03-04 17:20:04.0837 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher
+2025-03-04 17:20:04.0837 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Info] => console
+2025-03-04 17:20:04.0837 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Warn] => console
+2025-03-04 17:20:04.0837 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Error] => console
+2025-03-04 17:20:04.0837 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Fatal] => console
+2025-03-04 17:20:25.7042 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter
+2025-03-04 17:20:25.7042 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Info] => console
+2025-03-04 17:20:25.7042 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Warn] => console
+2025-03-04 17:20:25.7042 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Error] => console
+2025-03-04 17:20:25.7042 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Fatal] => console
+2025-03-04 17:20:25.7121 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter
+2025-03-04 17:20:25.7121 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter [Info] => console
+2025-03-04 17:20:25.7121 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter [Warn] => console
+2025-03-04 17:20:25.7121 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter [Error] => console
+2025-03-04 17:20:25.7121 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter [Fatal] => console
+2025-03-04 17:20:25.7474 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder
+2025-03-04 17:20:25.7474 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Info] => console
+2025-03-04 17:20:25.7474 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Warn] => console
+2025-03-04 17:20:25.7474 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Error] => console
+2025-03-04 17:20:25.7474 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Fatal] => console
+2025-03-04 17:20:25.7647 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Controllers.HelloGreetingController
+2025-03-04 17:20:25.7647 Debug Logger HelloGreetingApplication.Controllers.HelloGreetingController [Info] => console
+2025-03-04 17:20:25.7647 Debug Logger HelloGreetingApplication.Controllers.HelloGreetingController [Warn] => console
+2025-03-04 17:20:25.7647 Debug Logger HelloGreetingApplication.Controllers.HelloGreetingController [Error] => console
+2025-03-04 17:20:25.7647 Debug Logger HelloGreetingApplication.Controllers.HelloGreetingController [Fatal] => console
+2025-03-04 17:20:25.7647 Debug Targets configured when LogLevel >= Info for Logger: BusinessLayer.Service.GreetingBL
+2025-03-04 17:20:25.7647 Debug Logger BusinessLayer.Service.GreetingBL [Info] => console
+2025-03-04 17:20:25.7647 Debug Logger BusinessLayer.Service.GreetingBL [Warn] => console
+2025-03-04 17:20:25.7647 Debug Logger BusinessLayer.Service.GreetingBL [Error] => console
+2025-03-04 17:20:25.7647 Debug Logger BusinessLayer.Service.GreetingBL [Fatal] => console
+2025-03-04 17:20:25.8441 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector
+2025-03-04 17:20:25.8441 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Info] => console
+2025-03-04 17:20:25.8441 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Warn] => console
+2025-03-04 17:20:25.8441 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Error] => console
+2025-03-04 17:20:25.8441 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Fatal] => console
+2025-03-04 17:20:25.8441 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+2025-03-04 17:20:25.8441 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Info] => console
+2025-03-04 17:20:25.8441 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Warn] => console
+2025-03-04 17:20:25.8441 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Error] => console
+2025-03-04 17:20:25.8441 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Fatal] => console

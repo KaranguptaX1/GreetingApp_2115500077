@@ -143,4 +143,24 @@ public class HelloGreetingController : ControllerBase
         _logger.LogInformation("SimpleGreeting Executed Successfully");
         return Ok(response);
     }
+    /// <summary>
+    /// Get a personalized greeting message based on user input.
+    /// </summary>
+    /// <param name="firstName">User's first name (optional).</param>
+    /// <param name="lastName">User's last name (optional).</param>
+    /// <returns>Personalized greeting message.</returns>
+    [HttpGet("GetGreeting")]
+    public IActionResult GetGreeting([FromQuery] string? firstName, [FromQuery] string? lastName)
+    {
+        _logger.LogInformation("Executing Get Greeting");
+        string result =_greetingBl.GetGreeting(firstName, lastName);
+        var response = new ResponseModel<string>
+        {
+            Success = true,
+            Message = $"Got the GetGreeting {result}",
+            Data = result
+        };
+        _logger.LogInformation($"Greeting: {result}");
+        return Ok(response);
+    }
 }

@@ -1,17 +1,47 @@
-var builder = WebApplication.CreateBuilder(args);
+using BusinessLayer.Service;
+using RepositoryLayer.Service;
+using RepositoryLayer.Interface;
+//using Microsoft.EntityFrameworkCore;
+using NLog;
+using NLog.Web;
+var logger = LogManager.Setup().LoadConfigurationFromFile("NLog.config").GetCurrentClassLogger();
+logger.Info("Application is starting...");
+try
+{
+    var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+    // Configure NLog
+    builder.Logging.ClearProviders();
+    builder.Host.UseNLog();
 
-builder.Services.AddControllers();
+    // Add services to the container.
+    builder.Services.AddControllers();
 
-var app = builder.Build();
+    // Use Swagger for API documentation
+    builder.Services.AddEndpointsApiExplorer();
+    builder.Services.AddSwaggerGen();
 
-// Configure the HTTP request pipeline.
+    var app = builder.Build();
 
-app.UseHttpsRedirection();
+    // Use Swagger Middleware
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "HelloWorld API V1");
+    });
 
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
+    // Configure the HTTP request pipeline.
+    app.UseHttpsRedirection();
+    app.UseAuthorization();
+    app.MapControllers();
+    app.Run();
+}
+catch (Exception ex)
+{
+    logger.Error(ex, "An unhandled exception occurred during application startup.");
+    throw;
+}
+finally
+{
+    LogManager.Shutdown(); // Ensure logs are flushed and disposed
+}

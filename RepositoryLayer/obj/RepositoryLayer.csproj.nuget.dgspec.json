@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GreetingApp_2115500077\\HelloGreetingApplication\\RepositoryLayer\\RepositoryLayer.csproj": {}
+    "D:\\MainGreetingApp\\GreetingApp_2115500077\\RepositoryLayer\\RepositoryLayer.csproj": {}
   },
   "projects": {
-    "D:\\GreetingApp_2115500077\\HelloGreetingApplication\\RepositoryLayer\\RepositoryLayer.csproj": {
+    "D:\\MainGreetingApp\\GreetingApp_2115500077\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GreetingApp_2115500077\\HelloGreetingApplication\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectUniqueName": "D:\\MainGreetingApp\\GreetingApp_2115500077\\RepositoryLayer\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "D:\\GreetingApp_2115500077\\HelloGreetingApplication\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectPath": "D:\\MainGreetingApp\\GreetingApp_2115500077\\RepositoryLayer\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\Ishika\\.nuget\\packages\\",
-        "outputPath": "D:\\GreetingApp_2115500077\\HelloGreetingApplication\\RepositoryLayer\\obj\\",
+        "outputPath": "D:\\MainGreetingApp\\GreetingApp_2115500077\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.36, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

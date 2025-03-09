@@ -1,7 +1,6 @@
 .vs
 obj/
 bin/
-*.cacheobj/
-bin/
 *.cache
-
+Debug/
+Temp/

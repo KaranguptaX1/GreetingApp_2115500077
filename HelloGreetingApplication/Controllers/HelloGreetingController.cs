@@ -163,4 +163,23 @@ public class HelloGreetingController : ControllerBase
         _logger.LogInformation($"Greeting: {result}");
         return Ok(response);
     }
+    /// <summary>
+    /// Add a greeting message to the greeting database
+    /// </summary>
+    /// <param name="greeting"></param>
+    /// <returns>Add Greeting Message. </returns>
+    [HttpPost("AddNewGreeting")]
+    public IActionResult NewGreeting(GreetingModel greeting)
+    {
+        _logger.LogInformation("Creating the greeting in database");
+        string result = _greetingBl.CreateGreeting(greeting);
+        var response = new ResponseModel<string>
+        {
+            Success = true,
+            Message = "Greeting Add To DB",
+            Data = result
+        };
+        _logger.LogInformation("Returning response: {message}", result);
+        return Ok(response);
+    }
 }

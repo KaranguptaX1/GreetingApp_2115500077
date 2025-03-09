@@ -1328,3 +1328,1869 @@
 2025-03-04 17:20:25.8441 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Warn] => console
 2025-03-04 17:20:25.8441 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Error] => console
 2025-03-04 17:20:25.8441 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Fatal] => console
+2025-03-04 22:19:36.9972 Debug Message Template Auto Format enabled
+2025-03-04 22:19:37.7492 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-04 22:19:37.7492 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-04 22:19:37.7695 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-04 22:19:37.7695 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-04 22:19:37.7695 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-04 22:19:37.7695 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-04 22:19:37.8049 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-04 22:19:37.8049 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-04 22:19:37.8094 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-04 22:19:37.8094 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-04 22:19:37.8094 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-04 22:19:37.8094 Trace ParseRulesElement
+2025-03-04 22:19:37.8497 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-04 22:19:37.8980 Debug --- NLog configuration dump ---
+2025-03-04 22:19:37.8980 Debug Targets:
+2025-03-04 22:19:37.8980 Debug ConsoleTarget(Name=console)
+2025-03-04 22:19:37.8980 Debug Rules:
+2025-03-04 22:19:37.8980 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-04 22:19:37.8980 Debug --- End of NLog configuration dump ---
+2025-03-04 22:19:37.8980 Trace FindReachableObject<System.Object>:
+2025-03-04 22:19:37.9294 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-04 22:19:37.9294 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-04 22:19:37.9294 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-04 22:19:37.9294 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-04 22:19:37.9294 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-04 22:19:37.9294 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-04 22:19:37.9294 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-04 22:19:37.9294 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 22:19:37.9294 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-04 22:19:37.9294 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 22:19:37.9294 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-04 22:19:37.9294 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 22:19:37.9294 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-04 22:19:37.9294 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-04 22:19:37.9294 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-04 22:19:37.9294 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-04 22:19:37.9472 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-04 22:19:37.9472 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-04 22:19:37.9661 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-04 22:19:37.9661 Trace Initializing Layout Renderer: ${exception}
+2025-03-04 22:19:37.9661 Trace Initializing Layout Renderer: ${literal}
+2025-03-04 22:19:37.9661 Trace Initializing Layout Renderer: ${message}
+2025-03-04 22:19:37.9661 Trace Initializing Layout Renderer: ${literal}
+2025-03-04 22:19:37.9661 Trace Initializing Layout Renderer: ${level}
+2025-03-04 22:19:37.9661 Trace Initializing Layout Renderer: ${literal}
+2025-03-04 22:19:37.9661 Trace Initializing Layout Renderer: ${longdate}
+2025-03-04 22:19:37.9661 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-04 22:19:37.9793 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-04 22:19:37.9793 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-04 22:19:37.9793 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-04 22:19:37.9793 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-04 22:19:37.9793 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 22:19:37.9793 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-04 22:19:37.9793 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 22:19:37.9793 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-04 22:19:37.9793 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 22:19:37.9793 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-04 22:19:37.9793 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-04 22:19:37.9793 Trace Initializing ConsoleTarget(Name=console)
+2025-03-04 22:19:37.9963 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-04 22:19:37.9963 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-04 22:19:37.9963 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-04 22:19:37.9963 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-04 22:19:37.9963 Info Configuration initialized.
+2025-03-04 22:19:38.0462 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-04 22:19:38.0462 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-04 22:19:38.0462 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-04 22:19:38.0462 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-04 22:19:38.0462 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-04 22:19:39.3869 Trace Assembly 'NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2025-03-04 22:19:39.3899 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2025-03-04 22:19:39.3899 Trace Assembly 'Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2025-03-04 22:19:39.4402 Trace Assembly 'NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2025-03-04 22:19:39.4638 Debug Skip loading NLogLoggingConfiguration from empty config section: NLog
+2025-03-04 22:19:39.4638 Trace FindReachableObject<System.Object>:
+2025-03-04 22:19:39.4638 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-04 22:19:39.4638 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-04 22:19:39.4638 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-04 22:19:39.4638 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-04 22:19:39.4638 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-04 22:19:39.4638 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-04 22:19:39.4638 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-04 22:19:39.4638 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 22:19:39.4638 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-04 22:19:39.4638 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 22:19:39.4638 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-04 22:19:39.4638 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-04 22:19:39.4760 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-04 22:19:39.4760 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-04 22:19:39.4760 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-04 22:19:39.4917 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-04 22:19:39.4917 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-04 22:19:39.4917 Trace Initializing Layout Renderer: ${exception}
+2025-03-04 22:19:39.4917 Trace Initializing Layout Renderer: ${literal}
+2025-03-04 22:19:39.4917 Trace Initializing Layout Renderer: ${message}
+2025-03-04 22:19:39.4917 Trace Initializing Layout Renderer: ${literal}
+2025-03-04 22:19:39.4917 Trace Initializing Layout Renderer: ${level}
+2025-03-04 22:19:39.4917 Trace Initializing Layout Renderer: ${literal}
+2025-03-04 22:19:39.4917 Trace Initializing Layout Renderer: ${longdate}
+2025-03-04 22:19:39.5128 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-04 22:19:39.5128 Trace Initializing ConsoleTarget(Name=console)
+2025-03-04 22:19:39.5128 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-04 22:19:39.5128 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-04 22:19:39.5128 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-04 22:19:39.5128 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-04 22:19:39.5128 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-04 22:19:39.5128 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-04 22:19:39.5128 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-04 22:19:39.5128 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-04 22:19:39.5128 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-04 22:19:39.5362 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime
+2025-03-04 22:19:39.5362 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Info] => console
+2025-03-04 22:19:39.5362 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Warn] => console
+2025-03-04 22:19:39.5362 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Error] => console
+2025-03-04 22:19:39.5379 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Fatal] => console
+2025-03-04 22:19:39.5379 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.Host
+2025-03-04 22:19:39.5379 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Info] => console
+2025-03-04 22:19:39.5379 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Warn] => console
+2025-03-04 22:19:39.5379 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Error] => console
+2025-03-04 22:19:39.5379 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Fatal] => console
+2025-03-04 22:19:39.5379 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Hosting.Lifetime
+2025-03-04 22:19:39.5379 Debug Logger Microsoft.Hosting.Lifetime [Info] => console
+2025-03-04 22:19:39.5379 Debug Logger Microsoft.Hosting.Lifetime [Warn] => console
+2025-03-04 22:19:39.5379 Debug Logger Microsoft.Hosting.Lifetime [Error] => console
+2025-03-04 22:19:39.5379 Debug Logger Microsoft.Hosting.Lifetime [Fatal] => console
+2025-03-04 22:19:39.6002 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer
+2025-03-04 22:19:39.6002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Info] => console
+2025-03-04 22:19:39.6002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Warn] => console
+2025-03-04 22:19:39.6002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Error] => console
+2025-03-04 22:19:39.6002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Fatal] => console
+2025-03-04 22:19:39.6002 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware
+2025-03-04 22:19:39.6002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Info] => console
+2025-03-04 22:19:39.6002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Warn] => console
+2025-03-04 22:19:39.6002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Error] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Fatal] => console
+2025-03-04 22:19:39.6107 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Info] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Warn] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Error] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Fatal] => console
+2025-03-04 22:19:39.6107 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Info] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Warn] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Error] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Fatal] => console
+2025-03-04 22:19:39.6107 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Connections
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Info] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Warn] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Error] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Fatal] => console
+2025-03-04 22:19:39.6107 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Http2
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Info] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Warn] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Error] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Fatal] => console
+2025-03-04 22:19:39.6107 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Http3
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Info] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Warn] => console
+2025-03-04 22:19:39.6107 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Error] => console
+2025-03-04 22:19:39.6257 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Fatal] => console
+2025-03-04 22:19:39.6527 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication
+2025-03-04 22:19:39.6527 Debug Logger HelloGreetingApplication [Info] => console
+2025-03-04 22:19:39.6527 Debug Logger HelloGreetingApplication [Warn] => console
+2025-03-04 22:19:39.6527 Debug Logger HelloGreetingApplication [Error] => console
+2025-03-04 22:19:39.6527 Debug Logger HelloGreetingApplication [Fatal] => console
+2025-03-04 22:19:39.7648 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter
+2025-03-04 22:19:39.7648 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Info] => console
+2025-03-04 22:19:39.7648 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Warn] => console
+2025-03-04 22:19:39.7648 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Error] => console
+2025-03-04 22:19:39.7648 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Fatal] => console
+2025-03-04 22:19:39.9507 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory
+2025-03-04 22:19:39.9507 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Info] => console
+2025-03-04 22:19:39.9507 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Warn] => console
+2025-03-04 22:19:39.9557 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Error] => console
+2025-03-04 22:19:39.9557 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Fatal] => console
+2025-03-04 22:19:39.9557 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder
+2025-03-04 22:19:39.9557 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Info] => console
+2025-03-04 22:19:39.9557 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Warn] => console
+2025-03-04 22:19:39.9713 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Error] => console
+2025-03-04 22:19:39.9713 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Fatal] => console
+2025-03-04 22:19:39.9713 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+2025-03-04 22:19:39.9713 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Info] => console
+2025-03-04 22:19:39.9713 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Warn] => console
+2025-03-04 22:19:39.9713 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Error] => console
+2025-03-04 22:19:39.9713 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Fatal] => console
+2025-03-04 22:19:40.1327 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Hosting.Diagnostics
+2025-03-04 22:19:40.1327 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Info] => console
+2025-03-04 22:19:40.1327 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Warn] => console
+2025-03-04 22:19:40.1327 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Error] => console
+2025-03-04 22:19:40.1327 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Fatal] => console
+2025-03-04 22:19:40.2432 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware
+2025-03-04 22:19:40.2432 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Info] => console
+2025-03-04 22:19:40.2432 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Warn] => console
+2025-03-04 22:19:40.2432 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Error] => console
+2025-03-04 22:19:40.2432 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Fatal] => console
+2025-03-04 22:19:40.2432 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+2025-03-04 22:19:40.2432 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Info] => console
+2025-03-04 22:19:40.2432 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warn] => console
+2025-03-04 22:19:40.2432 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Error] => console
+2025-03-04 22:19:40.2432 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Fatal] => console
+2025-03-04 22:19:40.2961 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+2025-03-04 22:19:40.2961 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Info] => console
+2025-03-04 22:19:40.2961 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Warn] => console
+2025-03-04 22:19:40.2961 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Error] => console
+2025-03-04 22:19:40.2961 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Fatal] => console
+2025-03-04 22:19:40.4982 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware
+2025-03-04 22:19:40.5447 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Info] => console
+2025-03-04 22:19:40.5544 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Warn] => console
+2025-03-04 22:19:40.5544 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Error] => console
+2025-03-04 22:19:40.5544 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Fatal] => console
+2025-03-04 22:19:40.5780 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+2025-03-04 22:19:40.5780 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Info] => console
+2025-03-04 22:19:40.5780 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Warn] => console
+2025-03-04 22:19:40.5780 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] => console
+2025-03-04 22:19:40.5780 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Fatal] => console
+2025-03-04 22:19:40.5780 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware
+2025-03-04 22:19:40.5805 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Info] => console
+2025-03-04 22:19:40.5805 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Warn] => console
+2025-03-04 22:19:40.5805 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Error] => console
+2025-03-04 22:19:40.5805 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Fatal] => console
+2025-03-04 22:19:40.5805 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware
+2025-03-04 22:19:40.5805 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Info] => console
+2025-03-04 22:19:40.5805 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Warn] => console
+2025-03-04 22:19:40.5805 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Error] => console
+2025-03-04 22:19:40.5805 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Fatal] => console
+2025-03-04 22:19:40.6208 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware
+2025-03-04 22:19:40.6208 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Info] => console
+2025-03-04 22:19:40.6208 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Warn] => console
+2025-03-04 22:19:40.6208 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Error] => console
+2025-03-04 22:19:40.6208 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Fatal] => console
+2025-03-04 22:19:40.6310 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware
+2025-03-04 22:19:40.6310 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Info] => console
+2025-03-04 22:19:40.6310 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Warn] => console
+2025-03-04 22:19:40.6310 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Error] => console
+2025-03-04 22:19:40.6310 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Fatal] => console
+2025-03-04 22:19:40.9201 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets
+2025-03-04 22:19:40.9201 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Info] => console
+2025-03-04 22:19:40.9201 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Warn] => console
+2025-03-04 22:19:40.9201 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Error] => console
+2025-03-04 22:19:40.9229 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Fatal] => console
+2025-03-04 22:19:43.9048 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher
+2025-03-04 22:19:43.9048 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Info] => console
+2025-03-04 22:19:43.9048 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Warn] => console
+2025-03-04 22:19:43.9048 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Error] => console
+2025-03-04 22:19:43.9048 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Fatal] => console
+2025-03-05 11:01:41.8671 Debug Message Template Auto Format enabled
+2025-03-05 11:01:42.5083 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-05 11:01:42.5166 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-05 11:01:42.5166 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-05 11:01:42.5166 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-05 11:01:42.5166 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-05 11:01:42.5166 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-05 11:01:42.5642 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-05 11:01:42.5642 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-05 11:01:42.5642 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-05 11:01:42.5642 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-05 11:01:42.5642 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-05 11:01:42.5802 Trace ParseRulesElement
+2025-03-05 11:01:42.6110 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-05 11:01:42.6592 Debug --- NLog configuration dump ---
+2025-03-05 11:01:42.6592 Debug Targets:
+2025-03-05 11:01:42.6592 Debug ConsoleTarget(Name=console)
+2025-03-05 11:01:42.6592 Debug Rules:
+2025-03-05 11:01:42.6592 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-05 11:01:42.6592 Debug --- End of NLog configuration dump ---
+2025-03-05 11:01:42.6795 Trace FindReachableObject<System.Object>:
+2025-03-05 11:01:42.6795 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-05 11:01:42.6795 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-05 11:01:42.6795 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-05 11:01:42.6795 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-05 11:01:42.6795 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-05 11:01:42.6795 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-05 11:01:42.6795 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-05 11:01:42.6795 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-05 11:01:42.6795 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-05 11:01:42.6795 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-05 11:01:42.6795 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-05 11:01:42.6876 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-05 11:01:42.6876 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-05 11:01:42.6876 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-05 11:01:42.6876 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-05 11:01:42.6876 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-05 11:01:42.6876 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-05 11:01:42.7178 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-05 11:01:42.7288 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-05 11:01:42.7288 Trace Initializing Layout Renderer: ${exception}
+2025-03-05 11:01:42.7288 Trace Initializing Layout Renderer: ${literal}
+2025-03-05 11:01:42.7288 Trace Initializing Layout Renderer: ${message}
+2025-03-05 11:01:42.7288 Trace Initializing Layout Renderer: ${literal}
+2025-03-05 11:01:42.7288 Trace Initializing Layout Renderer: ${level}
+2025-03-05 11:01:42.7288 Trace Initializing Layout Renderer: ${literal}
+2025-03-05 11:01:42.7288 Trace Initializing Layout Renderer: ${longdate}
+2025-03-05 11:01:42.7288 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-05 11:01:42.7288 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-05 11:01:42.7288 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-05 11:01:42.7288 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-05 11:01:42.7288 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-05 11:01:42.7288 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-05 11:01:42.7288 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-05 11:01:42.7288 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-05 11:01:42.7288 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-05 11:01:42.7288 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-05 11:01:42.7288 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-05 11:01:42.7288 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-05 11:01:42.7288 Trace Initializing ConsoleTarget(Name=console)
+2025-03-05 11:01:42.7607 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-05 11:01:42.7607 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-05 11:01:42.7607 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-05 11:01:42.7607 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-05 11:01:42.7725 Info Configuration initialized.
+2025-03-05 11:01:43.0531 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-05 11:01:43.0531 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-05 11:01:43.0531 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-05 11:01:43.0531 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-05 11:01:43.0531 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-05 11:01:44.7455 Trace Assembly 'NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2025-03-05 11:01:44.7455 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2025-03-05 11:01:44.7455 Trace Assembly 'Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2025-03-05 11:01:44.7708 Trace Assembly 'NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2025-03-05 11:01:44.7708 Debug Skip loading NLogLoggingConfiguration from empty config section: NLog
+2025-03-05 11:01:44.7708 Trace FindReachableObject<System.Object>:
+2025-03-05 11:01:44.7708 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-05 11:01:44.7708 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-05 11:01:44.7708 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-05 11:01:44.7708 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-05 11:01:44.7708 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-05 11:01:44.7708 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-05 11:01:44.7708 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-05 11:01:44.7708 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-05 11:01:44.7708 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-05 11:01:44.7708 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-05 11:01:44.7708 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-05 11:01:44.7708 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-05 11:01:44.7708 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-05 11:01:44.7708 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-05 11:01:44.7708 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-05 11:01:44.7708 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-05 11:01:44.7708 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-05 11:01:44.7708 Trace Initializing Layout Renderer: ${exception}
+2025-03-05 11:01:44.7708 Trace Initializing Layout Renderer: ${literal}
+2025-03-05 11:01:44.7708 Trace Initializing Layout Renderer: ${message}
+2025-03-05 11:01:44.7708 Trace Initializing Layout Renderer: ${literal}
+2025-03-05 11:01:44.7708 Trace Initializing Layout Renderer: ${level}
+2025-03-05 11:01:44.7866 Trace Initializing Layout Renderer: ${literal}
+2025-03-05 11:01:44.7866 Trace Initializing Layout Renderer: ${longdate}
+2025-03-05 11:01:44.7892 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-05 11:01:44.7892 Trace Initializing ConsoleTarget(Name=console)
+2025-03-05 11:01:44.7892 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-05 11:01:44.7892 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-05 11:01:44.7892 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-05 11:01:44.7892 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-05 11:01:44.7892 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-05 11:01:44.7892 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-05 11:01:44.7892 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-05 11:01:44.8086 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-05 11:01:44.8086 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-05 11:01:44.8296 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime
+2025-03-05 11:01:44.8296 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Info] => console
+2025-03-05 11:01:44.8296 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Warn] => console
+2025-03-05 11:01:44.8296 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Error] => console
+2025-03-05 11:01:44.8296 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Fatal] => console
+2025-03-05 11:01:44.8452 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.Host
+2025-03-05 11:01:44.8452 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Info] => console
+2025-03-05 11:01:44.8452 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Warn] => console
+2025-03-05 11:01:44.8452 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Error] => console
+2025-03-05 11:01:44.8452 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Fatal] => console
+2025-03-05 11:01:44.8452 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Hosting.Lifetime
+2025-03-05 11:01:44.8452 Debug Logger Microsoft.Hosting.Lifetime [Info] => console
+2025-03-05 11:01:44.8452 Debug Logger Microsoft.Hosting.Lifetime [Warn] => console
+2025-03-05 11:01:44.8596 Debug Logger Microsoft.Hosting.Lifetime [Error] => console
+2025-03-05 11:01:44.8596 Debug Logger Microsoft.Hosting.Lifetime [Fatal] => console
+2025-03-05 11:01:44.9269 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer
+2025-03-05 11:01:44.9269 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Info] => console
+2025-03-05 11:01:44.9269 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Warn] => console
+2025-03-05 11:01:44.9269 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Error] => console
+2025-03-05 11:01:44.9269 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Fatal] => console
+2025-03-05 11:01:44.9269 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware
+2025-03-05 11:01:44.9269 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Info] => console
+2025-03-05 11:01:44.9269 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Warn] => console
+2025-03-05 11:01:44.9269 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Error] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Fatal] => console
+2025-03-05 11:01:44.9314 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Info] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Warn] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Error] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Fatal] => console
+2025-03-05 11:01:44.9314 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Info] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Warn] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Error] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Fatal] => console
+2025-03-05 11:01:44.9314 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Connections
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Info] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Warn] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Error] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Fatal] => console
+2025-03-05 11:01:44.9314 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Http2
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Info] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Warn] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Error] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Fatal] => console
+2025-03-05 11:01:44.9314 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Http3
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Info] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Warn] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Error] => console
+2025-03-05 11:01:44.9314 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Fatal] => console
+2025-03-05 11:01:44.9750 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication
+2025-03-05 11:01:44.9750 Debug Logger HelloGreetingApplication [Info] => console
+2025-03-05 11:01:44.9750 Debug Logger HelloGreetingApplication [Warn] => console
+2025-03-05 11:01:44.9750 Debug Logger HelloGreetingApplication [Error] => console
+2025-03-05 11:01:44.9750 Debug Logger HelloGreetingApplication [Fatal] => console
+2025-03-05 11:01:45.0600 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter
+2025-03-05 11:01:45.0600 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Info] => console
+2025-03-05 11:01:45.0600 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Warn] => console
+2025-03-05 11:01:45.0600 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Error] => console
+2025-03-05 11:01:45.0600 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Fatal] => console
+2025-03-05 11:01:45.2606 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory
+2025-03-05 11:01:45.2606 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Info] => console
+2025-03-05 11:01:45.2606 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Warn] => console
+2025-03-05 11:01:45.2606 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Error] => console
+2025-03-05 11:01:45.2606 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Fatal] => console
+2025-03-05 11:01:45.2606 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder
+2025-03-05 11:01:45.2606 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Info] => console
+2025-03-05 11:01:45.2606 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Warn] => console
+2025-03-05 11:01:45.2752 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Error] => console
+2025-03-05 11:01:45.2752 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Fatal] => console
+2025-03-05 11:01:45.2752 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+2025-03-05 11:01:45.2752 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Info] => console
+2025-03-05 11:01:45.2752 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Warn] => console
+2025-03-05 11:01:45.2752 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Error] => console
+2025-03-05 11:01:45.2752 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Fatal] => console
+2025-03-05 11:01:45.4127 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Hosting.Diagnostics
+2025-03-05 11:01:45.4127 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Info] => console
+2025-03-05 11:01:45.4127 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Warn] => console
+2025-03-05 11:01:45.4127 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Error] => console
+2025-03-05 11:01:45.4127 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Fatal] => console
+2025-03-05 11:01:45.5071 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware
+2025-03-05 11:01:45.5071 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Info] => console
+2025-03-05 11:01:45.5071 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Warn] => console
+2025-03-05 11:01:45.5071 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Error] => console
+2025-03-05 11:01:45.5071 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Fatal] => console
+2025-03-05 11:01:45.5071 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+2025-03-05 11:01:45.5071 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Info] => console
+2025-03-05 11:01:45.5071 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warn] => console
+2025-03-05 11:01:45.5192 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Error] => console
+2025-03-05 11:01:45.5192 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Fatal] => console
+2025-03-05 11:01:45.5866 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+2025-03-05 11:01:45.5866 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Info] => console
+2025-03-05 11:01:45.5866 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Warn] => console
+2025-03-05 11:01:45.5866 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Error] => console
+2025-03-05 11:01:45.5866 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Fatal] => console
+2025-03-05 11:01:45.8308 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware
+2025-03-05 11:01:45.8308 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Info] => console
+2025-03-05 11:01:45.8308 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Warn] => console
+2025-03-05 11:01:45.8308 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Error] => console
+2025-03-05 11:01:45.8308 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Fatal] => console
+2025-03-05 11:01:45.8491 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+2025-03-05 11:01:45.8491 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Info] => console
+2025-03-05 11:01:45.8491 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Warn] => console
+2025-03-05 11:01:45.8491 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] => console
+2025-03-05 11:01:45.8511 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Fatal] => console
+2025-03-05 11:01:45.8511 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware
+2025-03-05 11:01:45.8511 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Info] => console
+2025-03-05 11:01:45.8511 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Warn] => console
+2025-03-05 11:01:45.8511 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Error] => console
+2025-03-05 11:01:45.8511 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Fatal] => console
+2025-03-05 11:01:45.8511 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware
+2025-03-05 11:01:45.8511 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Info] => console
+2025-03-05 11:01:45.8511 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Warn] => console
+2025-03-05 11:01:45.8511 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Error] => console
+2025-03-05 11:01:45.8511 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Fatal] => console
+2025-03-05 11:01:45.9157 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware
+2025-03-05 11:01:45.9174 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Info] => console
+2025-03-05 11:01:45.9174 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Warn] => console
+2025-03-05 11:01:45.9174 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Error] => console
+2025-03-05 11:01:45.9174 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Fatal] => console
+2025-03-05 11:01:45.9174 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware
+2025-03-05 11:01:45.9174 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Info] => console
+2025-03-05 11:01:45.9174 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Warn] => console
+2025-03-05 11:01:45.9174 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Error] => console
+2025-03-05 11:01:45.9174 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Fatal] => console
+2025-03-05 11:01:46.4123 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets
+2025-03-05 11:01:46.4123 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Info] => console
+2025-03-05 11:01:46.4123 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Warn] => console
+2025-03-05 11:01:46.4123 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Error] => console
+2025-03-05 11:01:46.4123 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Fatal] => console
+2025-03-05 11:01:49.4511 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher
+2025-03-05 11:01:49.4511 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Info] => console
+2025-03-05 11:01:49.4511 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Warn] => console
+2025-03-05 11:01:49.4511 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Error] => console
+2025-03-05 11:01:49.4511 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Fatal] => console
+2025-03-09 19:56:09.1865 Debug Message Template Auto Format enabled
+2025-03-09 19:56:09.3875 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 19:56:09.3953 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 19:56:09.3953 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 19:56:09.3953 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 19:56:09.3953 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 19:56:09.3953 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 19:56:09.4276 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 19:56:09.4276 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 19:56:09.4276 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 19:56:09.4276 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 19:56:09.4276 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 19:56:09.4411 Trace ParseRulesElement
+2025-03-09 19:56:09.4654 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-09 19:56:09.4804 Debug --- NLog configuration dump ---
+2025-03-09 19:56:09.4804 Debug Targets:
+2025-03-09 19:56:09.4804 Debug ConsoleTarget(Name=console)
+2025-03-09 19:56:09.4804 Debug Rules:
+2025-03-09 19:56:09.4882 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-09 19:56:09.4882 Debug --- End of NLog configuration dump ---
+2025-03-09 19:56:09.4882 Trace FindReachableObject<System.Object>:
+2025-03-09 19:56:09.4882 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 19:56:09.4882 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 19:56:09.5025 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 19:56:09.5025 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 19:56:09.5025 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 19:56:09.5025 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 19:56:09.5025 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 19:56:09.5025 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 19:56:09.5025 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 19:56:09.5025 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 19:56:09.5025 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 19:56:09.5025 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 19:56:09.5025 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 19:56:09.5025 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 19:56:09.5025 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 19:56:09.5025 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 19:56:09.5025 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 19:56:09.5197 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-09 19:56:09.5197 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-09 19:56:09.5197 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 19:56:09.5355 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 19:56:09.5355 Trace Initializing Layout Renderer: ${message}
+2025-03-09 19:56:09.5355 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 19:56:09.5355 Trace Initializing Layout Renderer: ${level}
+2025-03-09 19:56:09.5355 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 19:56:09.5355 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 19:56:09.5355 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 19:56:09.5355 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 19:56:09.5355 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 19:56:09.5355 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 19:56:09.5355 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 19:56:09.5495 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 19:56:09.5495 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 19:56:09.5495 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 19:56:09.5495 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 19:56:09.5495 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 19:56:09.5495 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 19:56:09.5495 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 19:56:09.5495 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 19:56:09.5495 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 19:56:09.5495 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 19:56:09.5495 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 19:56:09.5495 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 19:56:09.5495 Info Configuration initialized.
+2025-03-09 19:56:09.5923 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 19:56:09.5923 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 19:56:09.5923 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 19:56:09.5923 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 19:56:09.5923 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 19:56:09.8825 Info Shutdown() called. Logger closing...
+2025-03-09 19:56:09.8825 Info Closing old configuration.
+2025-03-09 19:56:09.8825 Debug LogFactory Flush with timeout=15 secs
+2025-03-09 19:56:09.8825 Trace Flushing all 1 targets...
+2025-03-09 19:56:09.8950 Trace ForEachItemInParallel() 1 items
+2025-03-09 19:56:09.8950 Trace Continuation invoked: 
+2025-03-09 19:56:09.8950 Trace Parallel task completed. 0 items remaining
+2025-03-09 19:56:09.8950 Debug Flush completed
+2025-03-09 19:56:09.9090 Debug Closing logging configuration...
+2025-03-09 19:56:09.9090 Trace Closing ConsoleTarget(Name=console)
+2025-03-09 19:56:09.9090 Debug ConsoleTarget(Name=console): Closing...
+2025-03-09 19:56:09.9090 Debug ConsoleTarget(Name=console): Closed.
+2025-03-09 19:56:09.9090 Trace Closing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 19:56:09.9090 Trace Closing Layout Renderer: ${longdate}
+2025-03-09 19:56:09.9090 Trace Closing Layout Renderer: ${literal}
+2025-03-09 19:56:09.9090 Trace Closing Layout Renderer: ${level}
+2025-03-09 19:56:09.9090 Trace Closing Layout Renderer: ${literal}
+2025-03-09 19:56:09.9090 Trace Closing Layout Renderer: ${message}
+2025-03-09 19:56:09.9090 Trace Closing Layout Renderer: ${literal}
+2025-03-09 19:56:09.9090 Trace Closing Layout Renderer: ${exception}
+2025-03-09 19:56:09.9090 Debug Finished closing logging configuration.
+2025-03-09 19:56:09.9090 Info Logger has been closed down.
+2025-03-09 19:56:10.2561 Info AppDomain Shutting down. LogFactory closing...
+2025-03-09 19:56:10.2561 Info LogFactory has been closed.
+2025-03-09 19:57:47.0124 Debug Message Template Auto Format enabled
+2025-03-09 19:57:47.0947 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 19:57:47.0983 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 19:57:47.0983 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 19:57:47.0983 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 19:57:47.0983 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 19:57:47.0983 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 19:57:47.1225 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 19:57:47.1225 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 19:57:47.1225 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 19:57:47.1294 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 19:57:47.1294 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 19:57:47.1294 Trace ParseRulesElement
+2025-03-09 19:57:47.1521 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-09 19:57:47.1623 Debug --- NLog configuration dump ---
+2025-03-09 19:57:47.1623 Debug Targets:
+2025-03-09 19:57:47.1623 Debug ConsoleTarget(Name=console)
+2025-03-09 19:57:47.1623 Debug Rules:
+2025-03-09 19:57:47.1623 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-09 19:57:47.1623 Debug --- End of NLog configuration dump ---
+2025-03-09 19:57:47.1783 Trace FindReachableObject<System.Object>:
+2025-03-09 19:57:47.1783 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 19:57:47.1783 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 19:57:47.1783 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 19:57:47.1783 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 19:57:47.1783 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 19:57:47.1783 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 19:57:47.1783 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 19:57:47.1783 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 19:57:47.1783 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 19:57:47.1783 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 19:57:47.1783 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 19:57:47.1783 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 19:57:47.1783 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 19:57:47.1783 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 19:57:47.1783 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 19:57:47.1783 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 19:57:47.1927 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 19:57:47.1927 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-09 19:57:47.1927 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-09 19:57:47.1927 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 19:57:47.2060 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 19:57:47.2060 Trace Initializing Layout Renderer: ${message}
+2025-03-09 19:57:47.2060 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 19:57:47.2060 Trace Initializing Layout Renderer: ${level}
+2025-03-09 19:57:47.2060 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 19:57:47.2060 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 19:57:47.2060 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 19:57:47.2060 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 19:57:47.2060 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 19:57:47.2060 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 19:57:47.2060 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 19:57:47.2060 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 19:57:47.2060 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 19:57:47.2060 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 19:57:47.2060 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 19:57:47.2060 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 19:57:47.2060 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 19:57:47.2060 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 19:57:47.2060 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 19:57:47.2242 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 19:57:47.2242 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 19:57:47.2242 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 19:57:47.2242 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 19:57:47.2242 Info Configuration initialized.
+2025-03-09 19:57:47.2444 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 19:57:47.2444 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 19:57:47.2444 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 19:57:47.2444 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 19:57:47.2444 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 19:57:47.4972 Info Shutdown() called. Logger closing...
+2025-03-09 19:57:47.4972 Info Closing old configuration.
+2025-03-09 19:57:47.4972 Debug LogFactory Flush with timeout=15 secs
+2025-03-09 19:57:47.4972 Trace Flushing all 1 targets...
+2025-03-09 19:57:47.5065 Trace ForEachItemInParallel() 1 items
+2025-03-09 19:57:47.5065 Trace Continuation invoked: 
+2025-03-09 19:57:47.5065 Trace Parallel task completed. 0 items remaining
+2025-03-09 19:57:47.5065 Debug Flush completed
+2025-03-09 19:57:47.5185 Debug Closing logging configuration...
+2025-03-09 19:57:47.5185 Trace Closing ConsoleTarget(Name=console)
+2025-03-09 19:57:47.5185 Debug ConsoleTarget(Name=console): Closing...
+2025-03-09 19:57:47.5185 Debug ConsoleTarget(Name=console): Closed.
+2025-03-09 19:57:47.5185 Trace Closing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 19:57:47.5185 Trace Closing Layout Renderer: ${longdate}
+2025-03-09 19:57:47.5185 Trace Closing Layout Renderer: ${literal}
+2025-03-09 19:57:47.5185 Trace Closing Layout Renderer: ${level}
+2025-03-09 19:57:47.5185 Trace Closing Layout Renderer: ${literal}
+2025-03-09 19:57:47.5185 Trace Closing Layout Renderer: ${message}
+2025-03-09 19:57:47.5185 Trace Closing Layout Renderer: ${literal}
+2025-03-09 19:57:47.5185 Trace Closing Layout Renderer: ${exception}
+2025-03-09 19:57:47.5185 Debug Finished closing logging configuration.
+2025-03-09 19:57:47.5185 Info Logger has been closed down.
+2025-03-09 19:57:47.7200 Info AppDomain Shutting down. LogFactory closing...
+2025-03-09 19:57:47.7236 Info LogFactory has been closed.
+2025-03-09 20:02:35.4828 Debug Message Template Auto Format enabled
+2025-03-09 20:02:35.5637 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:02:35.5680 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:02:35.5680 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:02:35.5680 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:02:35.5680 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:02:35.5680 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:02:35.5917 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:02:35.5917 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:02:35.5917 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:02:35.5987 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:02:35.5987 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:02:35.5987 Trace ParseRulesElement
+2025-03-09 20:02:35.6188 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-09 20:02:35.6278 Debug --- NLog configuration dump ---
+2025-03-09 20:02:35.6278 Debug Targets:
+2025-03-09 20:02:35.6278 Debug ConsoleTarget(Name=console)
+2025-03-09 20:02:35.6278 Debug Rules:
+2025-03-09 20:02:35.6278 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-09 20:02:35.6278 Debug --- End of NLog configuration dump ---
+2025-03-09 20:02:35.6278 Trace FindReachableObject<System.Object>:
+2025-03-09 20:02:35.6443 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 20:02:35.6443 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 20:02:35.6443 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:02:35.6443 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:02:35.6443 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:02:35.6443 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:02:35.6443 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:02:35.6443 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:02:35.6443 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:02:35.6443 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:02:35.6443 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:02:35.6443 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:02:35.6443 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:02:35.6443 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:02:35.6443 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 20:02:35.6443 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 20:02:35.6443 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 20:02:35.6600 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-09 20:02:35.6600 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-09 20:02:35.6600 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 20:02:35.6600 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:02:35.6600 Trace Initializing Layout Renderer: ${message}
+2025-03-09 20:02:35.6600 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:02:35.6600 Trace Initializing Layout Renderer: ${level}
+2025-03-09 20:02:35.6600 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:02:35.6600 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 20:02:35.6600 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:02:35.6780 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:02:35.6780 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:02:35.6780 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:02:35.6780 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:02:35.6780 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:02:35.6780 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:02:35.6780 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:02:35.6780 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:02:35.6780 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:02:35.6780 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:02:35.6780 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:02:35.6780 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 20:02:35.6780 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 20:02:35.6780 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:02:35.6896 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:02:35.6896 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 20:02:35.6896 Info Configuration initialized.
+2025-03-09 20:02:35.7103 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 20:02:35.7103 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 20:02:35.7103 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 20:02:35.7103 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 20:02:35.7103 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 20:02:35.8902 Info Shutdown() called. Logger closing...
+2025-03-09 20:02:35.8902 Info Closing old configuration.
+2025-03-09 20:02:35.8902 Debug LogFactory Flush with timeout=15 secs
+2025-03-09 20:02:35.8952 Trace Flushing all 1 targets...
+2025-03-09 20:02:35.8952 Trace ForEachItemInParallel() 1 items
+2025-03-09 20:02:35.9090 Trace Continuation invoked: 
+2025-03-09 20:02:35.9090 Trace Parallel task completed. 0 items remaining
+2025-03-09 20:02:35.9090 Debug Flush completed
+2025-03-09 20:02:35.9090 Debug Closing logging configuration...
+2025-03-09 20:02:35.9090 Trace Closing ConsoleTarget(Name=console)
+2025-03-09 20:02:35.9090 Debug ConsoleTarget(Name=console): Closing...
+2025-03-09 20:02:35.9090 Debug ConsoleTarget(Name=console): Closed.
+2025-03-09 20:02:35.9090 Trace Closing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:02:35.9090 Trace Closing Layout Renderer: ${longdate}
+2025-03-09 20:02:35.9090 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:02:35.9090 Trace Closing Layout Renderer: ${level}
+2025-03-09 20:02:35.9090 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:02:35.9090 Trace Closing Layout Renderer: ${message}
+2025-03-09 20:02:35.9090 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:02:35.9090 Trace Closing Layout Renderer: ${exception}
+2025-03-09 20:02:35.9090 Debug Finished closing logging configuration.
+2025-03-09 20:02:35.9090 Info Logger has been closed down.
+2025-03-09 20:02:36.0413 Info AppDomain Shutting down. LogFactory closing...
+2025-03-09 20:02:36.0413 Info LogFactory has been closed.
+2025-03-09 20:05:10.4090 Debug Message Template Auto Format enabled
+2025-03-09 20:05:10.5085 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:05:10.5085 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:05:10.5197 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:05:10.5197 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:05:10.5197 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:05:10.5197 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:05:10.5649 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:05:10.5754 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:05:10.5754 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:05:10.5875 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:05:10.5875 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:05:10.5875 Trace ParseRulesElement
+2025-03-09 20:05:10.6151 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-09 20:05:10.6151 Debug --- NLog configuration dump ---
+2025-03-09 20:05:10.6151 Debug Targets:
+2025-03-09 20:05:10.6151 Debug ConsoleTarget(Name=console)
+2025-03-09 20:05:10.6284 Debug Rules:
+2025-03-09 20:05:10.6284 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-09 20:05:10.6284 Debug --- End of NLog configuration dump ---
+2025-03-09 20:05:10.6284 Trace FindReachableObject<System.Object>:
+2025-03-09 20:05:10.6284 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 20:05:10.6284 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 20:05:10.6284 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:05:10.6490 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:05:10.6490 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:05:10.6490 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:05:10.6490 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:05:10.6490 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:05:10.6490 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:05:10.6490 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:05:10.6490 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:05:10.6592 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:05:10.6592 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:05:10.6592 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:05:10.6592 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 20:05:10.6592 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 20:05:10.6777 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 20:05:10.6777 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-09 20:05:10.6917 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-09 20:05:10.6917 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 20:05:10.6917 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:05:10.6917 Trace Initializing Layout Renderer: ${message}
+2025-03-09 20:05:10.6917 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:05:10.6917 Trace Initializing Layout Renderer: ${level}
+2025-03-09 20:05:10.6917 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:05:10.6917 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 20:05:10.6917 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:05:10.6917 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:05:10.6917 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:05:10.6917 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:05:10.6917 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:05:10.6917 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:05:10.6917 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:05:10.6917 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:05:10.6917 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:05:10.6917 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:05:10.6917 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:05:10.7064 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:05:10.7064 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 20:05:10.7064 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 20:05:10.7064 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:05:10.7064 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:05:10.7064 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 20:05:10.7064 Info Configuration initialized.
+2025-03-09 20:05:10.7362 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 20:05:10.7362 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 20:05:10.7372 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 20:05:10.7372 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 20:05:10.7372 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 20:05:12.7127 Info Shutdown() called. Logger closing...
+2025-03-09 20:05:12.7127 Info Closing old configuration.
+2025-03-09 20:05:12.7127 Debug LogFactory Flush with timeout=15 secs
+2025-03-09 20:05:12.7127 Trace Flushing all 1 targets...
+2025-03-09 20:05:12.7241 Trace ForEachItemInParallel() 1 items
+2025-03-09 20:05:12.7241 Trace Continuation invoked: 
+2025-03-09 20:05:12.7241 Trace Parallel task completed. 0 items remaining
+2025-03-09 20:05:12.7241 Debug Flush completed
+2025-03-09 20:05:12.7368 Debug Closing logging configuration...
+2025-03-09 20:05:12.7368 Trace Closing ConsoleTarget(Name=console)
+2025-03-09 20:05:12.7368 Debug ConsoleTarget(Name=console): Closing...
+2025-03-09 20:05:12.7368 Debug ConsoleTarget(Name=console): Closed.
+2025-03-09 20:05:12.7368 Trace Closing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:05:12.7368 Trace Closing Layout Renderer: ${longdate}
+2025-03-09 20:05:12.7368 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:05:12.7368 Trace Closing Layout Renderer: ${level}
+2025-03-09 20:05:12.7368 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:05:12.7368 Trace Closing Layout Renderer: ${message}
+2025-03-09 20:05:12.7368 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:05:12.7368 Trace Closing Layout Renderer: ${exception}
+2025-03-09 20:05:12.7368 Debug Finished closing logging configuration.
+2025-03-09 20:05:12.7368 Info Logger has been closed down.
+2025-03-09 20:05:13.2704 Info AppDomain Shutting down. LogFactory closing...
+2025-03-09 20:05:13.2704 Info LogFactory has been closed.
+2025-03-09 20:09:49.6731 Debug Message Template Auto Format enabled
+2025-03-09 20:09:49.7552 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:09:49.7552 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:09:49.7552 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:09:49.7552 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:09:49.7552 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:09:49.7552 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:09:49.7849 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:09:49.7849 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:09:49.7849 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:09:49.7849 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:09:49.7849 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:09:49.7849 Trace ParseRulesElement
+2025-03-09 20:09:49.8158 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-09 20:09:49.8158 Debug --- NLog configuration dump ---
+2025-03-09 20:09:49.8158 Debug Targets:
+2025-03-09 20:09:49.8158 Debug ConsoleTarget(Name=console)
+2025-03-09 20:09:49.8158 Debug Rules:
+2025-03-09 20:09:49.8335 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-09 20:09:49.8335 Debug --- End of NLog configuration dump ---
+2025-03-09 20:09:49.8335 Trace FindReachableObject<System.Object>:
+2025-03-09 20:09:49.8335 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 20:09:49.8335 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 20:09:49.8335 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:09:49.8335 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:09:49.8335 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:09:49.8470 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:09:49.8470 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:09:49.8470 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:09:49.8470 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:09:49.8470 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:09:49.8470 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:09:49.8470 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:09:49.8470 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:09:49.8470 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:09:49.8470 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 20:09:49.8470 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 20:09:49.8470 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 20:09:49.8470 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-09 20:09:49.8669 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-09 20:09:49.8669 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 20:09:49.8669 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:09:49.8669 Trace Initializing Layout Renderer: ${message}
+2025-03-09 20:09:49.8669 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:09:49.8669 Trace Initializing Layout Renderer: ${level}
+2025-03-09 20:09:49.8669 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:09:49.8669 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 20:09:49.8669 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:09:49.8669 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:09:49.8669 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:09:49.8669 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:09:49.8777 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:09:49.8777 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:09:49.8777 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:09:49.8777 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:09:49.8777 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:09:49.8777 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:09:49.8777 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:09:49.8777 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:09:49.8777 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 20:09:49.8777 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 20:09:49.8777 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:09:49.8777 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:09:49.8777 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 20:09:49.8934 Info Configuration initialized.
+2025-03-09 20:09:49.9107 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 20:09:49.9107 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 20:09:49.9107 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 20:09:49.9107 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 20:09:49.9107 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 20:09:50.2112 Info Shutdown() called. Logger closing...
+2025-03-09 20:09:50.2112 Info Closing old configuration.
+2025-03-09 20:09:50.2112 Debug LogFactory Flush with timeout=15 secs
+2025-03-09 20:09:50.2112 Trace Flushing all 1 targets...
+2025-03-09 20:09:50.2112 Trace ForEachItemInParallel() 1 items
+2025-03-09 20:09:50.2316 Trace Continuation invoked: 
+2025-03-09 20:09:50.2316 Trace Parallel task completed. 0 items remaining
+2025-03-09 20:09:50.2316 Debug Flush completed
+2025-03-09 20:09:50.2381 Debug Closing logging configuration...
+2025-03-09 20:09:50.2381 Trace Closing ConsoleTarget(Name=console)
+2025-03-09 20:09:50.2381 Debug ConsoleTarget(Name=console): Closing...
+2025-03-09 20:09:50.2381 Debug ConsoleTarget(Name=console): Closed.
+2025-03-09 20:09:50.2381 Trace Closing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:09:50.2381 Trace Closing Layout Renderer: ${longdate}
+2025-03-09 20:09:50.2381 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:09:50.2381 Trace Closing Layout Renderer: ${level}
+2025-03-09 20:09:50.2381 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:09:50.2381 Trace Closing Layout Renderer: ${message}
+2025-03-09 20:09:50.2381 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:09:50.2381 Trace Closing Layout Renderer: ${exception}
+2025-03-09 20:09:50.2381 Debug Finished closing logging configuration.
+2025-03-09 20:09:50.2381 Info Logger has been closed down.
+2025-03-09 20:09:50.5418 Info AppDomain Shutting down. LogFactory closing...
+2025-03-09 20:09:50.5418 Info LogFactory has been closed.
+2025-03-09 20:14:19.6509 Debug Message Template Auto Format enabled
+2025-03-09 20:14:19.7387 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:14:19.7387 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:14:19.7387 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:14:19.7387 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:14:19.7387 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:14:19.7387 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:14:19.7728 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:14:19.7728 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:14:19.7728 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:14:19.7842 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:14:19.7842 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:14:19.7842 Trace ParseRulesElement
+2025-03-09 20:14:19.8105 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-09 20:14:19.8197 Debug --- NLog configuration dump ---
+2025-03-09 20:14:19.8197 Debug Targets:
+2025-03-09 20:14:19.8197 Debug ConsoleTarget(Name=console)
+2025-03-09 20:14:19.8197 Debug Rules:
+2025-03-09 20:14:19.8197 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-09 20:14:19.8197 Debug --- End of NLog configuration dump ---
+2025-03-09 20:14:19.8358 Trace FindReachableObject<System.Object>:
+2025-03-09 20:14:19.8358 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 20:14:19.8358 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 20:14:19.8358 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:14:19.8358 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:14:19.8358 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:14:19.8358 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:14:19.8358 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:14:19.8358 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:14:19.8358 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:14:19.8358 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:14:19.8358 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:14:19.8358 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:14:19.8358 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:14:19.8358 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:14:19.8358 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 20:14:19.8358 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 20:14:19.8482 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 20:14:19.8482 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-09 20:14:19.8482 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-09 20:14:19.8632 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 20:14:19.8632 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:14:19.8632 Trace Initializing Layout Renderer: ${message}
+2025-03-09 20:14:19.8632 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:14:19.8632 Trace Initializing Layout Renderer: ${level}
+2025-03-09 20:14:19.8632 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:14:19.8632 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 20:14:19.8632 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:14:19.8632 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:14:19.8632 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:14:19.8632 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:14:19.8632 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:14:19.8632 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:14:19.8632 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:14:19.8632 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:14:19.8632 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:14:19.8632 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:14:19.8632 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:14:19.8632 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:14:19.8797 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 20:14:19.8797 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 20:14:19.8797 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:14:19.8797 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:14:19.8797 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 20:14:19.8797 Info Configuration initialized.
+2025-03-09 20:14:19.9078 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 20:14:19.9098 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 20:14:19.9098 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 20:14:19.9098 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 20:14:19.9098 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 20:14:21.5239 Info Shutdown() called. Logger closing...
+2025-03-09 20:14:21.5239 Info Closing old configuration.
+2025-03-09 20:14:21.5239 Debug LogFactory Flush with timeout=15 secs
+2025-03-09 20:14:21.5239 Trace Flushing all 1 targets...
+2025-03-09 20:14:21.5338 Trace ForEachItemInParallel() 1 items
+2025-03-09 20:14:21.5338 Trace Continuation invoked: 
+2025-03-09 20:14:21.5338 Trace Parallel task completed. 0 items remaining
+2025-03-09 20:14:21.5338 Debug Flush completed
+2025-03-09 20:14:21.5338 Debug Closing logging configuration...
+2025-03-09 20:14:21.5338 Trace Closing ConsoleTarget(Name=console)
+2025-03-09 20:14:21.5338 Debug ConsoleTarget(Name=console): Closing...
+2025-03-09 20:14:21.5338 Debug ConsoleTarget(Name=console): Closed.
+2025-03-09 20:14:21.5338 Trace Closing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:14:21.5338 Trace Closing Layout Renderer: ${longdate}
+2025-03-09 20:14:21.5498 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:14:21.5498 Trace Closing Layout Renderer: ${level}
+2025-03-09 20:14:21.5498 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:14:21.5498 Trace Closing Layout Renderer: ${message}
+2025-03-09 20:14:21.5498 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:14:21.5498 Trace Closing Layout Renderer: ${exception}
+2025-03-09 20:14:21.5498 Debug Finished closing logging configuration.
+2025-03-09 20:14:21.5498 Info Logger has been closed down.
+2025-03-09 20:14:21.7111 Info AppDomain Shutting down. LogFactory closing...
+2025-03-09 20:14:21.7111 Info LogFactory has been closed.
+2025-03-09 20:19:58.8166 Debug Message Template Auto Format enabled
+2025-03-09 20:19:58.8992 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:19:58.8992 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:19:58.8992 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:19:58.9083 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:19:58.9083 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:19:58.9083 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:19:58.9256 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:19:58.9256 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:19:58.9256 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:19:58.9256 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:19:58.9256 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:19:58.9256 Trace ParseRulesElement
+2025-03-09 20:19:58.9547 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-09 20:19:58.9626 Debug --- NLog configuration dump ---
+2025-03-09 20:19:58.9626 Debug Targets:
+2025-03-09 20:19:58.9626 Debug ConsoleTarget(Name=console)
+2025-03-09 20:19:58.9626 Debug Rules:
+2025-03-09 20:19:58.9626 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-09 20:19:58.9626 Debug --- End of NLog configuration dump ---
+2025-03-09 20:19:58.9787 Trace FindReachableObject<System.Object>:
+2025-03-09 20:19:58.9787 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 20:19:58.9787 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 20:19:58.9787 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:19:58.9787 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:19:58.9787 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:19:58.9787 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:19:58.9787 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:19:58.9787 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:19:58.9787 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:19:58.9787 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:19:58.9864 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:19:58.9864 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:19:58.9864 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:19:58.9864 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:19:58.9864 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 20:19:58.9864 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 20:19:58.9864 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 20:19:58.9864 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-09 20:19:59.0035 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-09 20:19:59.0035 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 20:19:59.0035 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:19:59.0035 Trace Initializing Layout Renderer: ${message}
+2025-03-09 20:19:59.0035 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:19:59.0035 Trace Initializing Layout Renderer: ${level}
+2025-03-09 20:19:59.0035 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:19:59.0035 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 20:19:59.0035 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:19:59.0035 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:19:59.0035 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:19:59.0035 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:19:59.0035 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:19:59.0035 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:19:59.0035 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:19:59.0035 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:19:59.0035 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:19:59.0035 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:19:59.0185 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:19:59.0185 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:19:59.0185 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 20:19:59.0185 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 20:19:59.0185 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:19:59.0185 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:19:59.0185 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 20:19:59.0185 Info Configuration initialized.
+2025-03-09 20:19:59.0457 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 20:19:59.0457 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 20:19:59.0457 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 20:19:59.0457 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 20:19:59.0457 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 20:19:59.3239 Info Shutdown() called. Logger closing...
+2025-03-09 20:19:59.3239 Info Closing old configuration.
+2025-03-09 20:19:59.3239 Debug LogFactory Flush with timeout=15 secs
+2025-03-09 20:19:59.3239 Trace Flushing all 1 targets...
+2025-03-09 20:19:59.3351 Trace ForEachItemInParallel() 1 items
+2025-03-09 20:19:59.3351 Trace Continuation invoked: 
+2025-03-09 20:19:59.3351 Trace Parallel task completed. 0 items remaining
+2025-03-09 20:19:59.3351 Debug Flush completed
+2025-03-09 20:19:59.3351 Debug Closing logging configuration...
+2025-03-09 20:19:59.3351 Trace Closing ConsoleTarget(Name=console)
+2025-03-09 20:19:59.3467 Debug ConsoleTarget(Name=console): Closing...
+2025-03-09 20:19:59.3467 Debug ConsoleTarget(Name=console): Closed.
+2025-03-09 20:19:59.3467 Trace Closing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:19:59.3467 Trace Closing Layout Renderer: ${longdate}
+2025-03-09 20:19:59.3467 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:19:59.3467 Trace Closing Layout Renderer: ${level}
+2025-03-09 20:19:59.3467 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:19:59.3467 Trace Closing Layout Renderer: ${message}
+2025-03-09 20:19:59.3467 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:19:59.3467 Trace Closing Layout Renderer: ${exception}
+2025-03-09 20:19:59.3467 Debug Finished closing logging configuration.
+2025-03-09 20:19:59.3467 Info Logger has been closed down.
+2025-03-09 20:19:59.5945 Info AppDomain Shutting down. LogFactory closing...
+2025-03-09 20:19:59.5984 Info LogFactory has been closed.
+2025-03-09 20:25:01.9574 Debug Message Template Auto Format enabled
+2025-03-09 20:25:02.0983 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:25:02.0983 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:25:02.0983 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:25:02.1127 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:25:02.1127 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:25:02.1127 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:25:02.1404 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:25:02.1404 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:25:02.1404 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:25:02.1479 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:25:02.1479 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:25:02.1479 Trace ParseRulesElement
+2025-03-09 20:25:02.1722 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-09 20:25:02.1831 Debug --- NLog configuration dump ---
+2025-03-09 20:25:02.1831 Debug Targets:
+2025-03-09 20:25:02.1831 Debug ConsoleTarget(Name=console)
+2025-03-09 20:25:02.1831 Debug Rules:
+2025-03-09 20:25:02.1831 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-09 20:25:02.1905 Debug --- End of NLog configuration dump ---
+2025-03-09 20:25:02.1905 Trace FindReachableObject<System.Object>:
+2025-03-09 20:25:02.1905 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 20:25:02.1905 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 20:25:02.1905 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:25:02.1905 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:25:02.1905 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:25:02.1905 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:25:02.1905 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:25:02.1905 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:25:02.1905 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:25:02.2055 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:25:02.2055 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:25:02.2055 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:25:02.2055 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:25:02.2055 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:25:02.2055 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 20:25:02.2055 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 20:25:02.2055 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 20:25:02.2055 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-09 20:25:02.2268 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-09 20:25:02.2268 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 20:25:02.2268 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:25:02.2268 Trace Initializing Layout Renderer: ${message}
+2025-03-09 20:25:02.2268 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:25:02.2268 Trace Initializing Layout Renderer: ${level}
+2025-03-09 20:25:02.2268 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:25:02.2268 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 20:25:02.2268 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:25:02.2380 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:25:02.2380 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:25:02.2380 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:25:02.2380 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:25:02.2380 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:25:02.2380 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:25:02.2380 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:25:02.2380 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:25:02.2380 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:25:02.2380 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:25:02.2380 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:25:02.2380 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 20:25:02.2380 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 20:25:02.2380 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:25:02.2526 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:25:02.2526 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 20:25:02.2526 Info Configuration initialized.
+2025-03-09 20:25:02.2707 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 20:25:02.2707 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 20:25:02.2707 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 20:25:02.2707 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 20:25:02.2707 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 20:25:04.1546 Info Shutdown() called. Logger closing...
+2025-03-09 20:25:04.1546 Info Closing old configuration.
+2025-03-09 20:25:04.1546 Debug LogFactory Flush with timeout=15 secs
+2025-03-09 20:25:04.1623 Trace Flushing all 1 targets...
+2025-03-09 20:25:04.1623 Trace ForEachItemInParallel() 1 items
+2025-03-09 20:25:04.1757 Trace Continuation invoked: 
+2025-03-09 20:25:04.1757 Trace Parallel task completed. 0 items remaining
+2025-03-09 20:25:04.1757 Debug Flush completed
+2025-03-09 20:25:04.1757 Debug Closing logging configuration...
+2025-03-09 20:25:04.1757 Trace Closing ConsoleTarget(Name=console)
+2025-03-09 20:25:04.1757 Debug ConsoleTarget(Name=console): Closing...
+2025-03-09 20:25:04.1757 Debug ConsoleTarget(Name=console): Closed.
+2025-03-09 20:25:04.1757 Trace Closing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:25:04.1757 Trace Closing Layout Renderer: ${longdate}
+2025-03-09 20:25:04.1757 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:25:04.1757 Trace Closing Layout Renderer: ${level}
+2025-03-09 20:25:04.1757 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:25:04.1757 Trace Closing Layout Renderer: ${message}
+2025-03-09 20:25:04.1757 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:25:04.1757 Trace Closing Layout Renderer: ${exception}
+2025-03-09 20:25:04.1757 Debug Finished closing logging configuration.
+2025-03-09 20:25:04.1757 Info Logger has been closed down.
+2025-03-09 20:25:04.5961 Info AppDomain Shutting down. LogFactory closing...
+2025-03-09 20:25:04.6008 Info LogFactory has been closed.
+2025-03-09 20:32:36.0259 Debug Message Template Auto Format enabled
+2025-03-09 20:32:36.1106 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:32:36.1151 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:32:36.1151 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:32:36.1151 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:32:36.1151 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:32:36.1151 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:32:36.1394 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:32:36.1394 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:32:36.1394 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:32:36.1464 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:32:36.1464 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:32:36.1464 Trace ParseRulesElement
+2025-03-09 20:32:36.1682 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-09 20:32:36.1808 Debug --- NLog configuration dump ---
+2025-03-09 20:32:36.1808 Debug Targets:
+2025-03-09 20:32:36.1808 Debug ConsoleTarget(Name=console)
+2025-03-09 20:32:36.1808 Debug Rules:
+2025-03-09 20:32:36.1808 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-09 20:32:36.1808 Debug --- End of NLog configuration dump ---
+2025-03-09 20:32:36.1974 Trace FindReachableObject<System.Object>:
+2025-03-09 20:32:36.1974 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 20:32:36.1974 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 20:32:36.1974 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:32:36.1974 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:32:36.1974 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:32:36.1974 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:32:36.1974 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:32:36.1974 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:32:36.1974 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:32:36.1974 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:32:36.1974 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:32:36.1974 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:32:36.1974 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:32:36.1974 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:32:36.1974 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 20:32:36.1974 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 20:32:36.2081 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 20:32:36.2081 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-09 20:32:36.2081 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-09 20:32:36.2223 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 20:32:36.2223 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:32:36.2223 Trace Initializing Layout Renderer: ${message}
+2025-03-09 20:32:36.2223 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:32:36.2223 Trace Initializing Layout Renderer: ${level}
+2025-03-09 20:32:36.2223 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:32:36.2223 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 20:32:36.2223 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:32:36.2223 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:32:36.2223 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:32:36.2223 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:32:36.2223 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:32:36.2223 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:32:36.2223 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:32:36.2398 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:32:36.2398 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:32:36.2398 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:32:36.2398 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:32:36.2398 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:32:36.2398 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 20:32:36.2398 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 20:32:36.2398 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:32:36.2525 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:32:36.2525 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 20:32:36.2525 Info Configuration initialized.
+2025-03-09 20:32:36.2859 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 20:32:36.2859 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 20:32:36.2859 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 20:32:36.2859 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 20:32:36.2859 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 20:32:36.6116 Trace Assembly 'NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2025-03-09 20:32:36.6116 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2025-03-09 20:32:36.6116 Trace Assembly 'Microsoft.Extensions.Logging, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2025-03-09 20:32:36.6116 Trace Assembly 'NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2025-03-09 20:32:36.6300 Debug Skip loading NLogLoggingConfiguration from empty config section: NLog
+2025-03-09 20:32:36.6300 Trace FindReachableObject<System.Object>:
+2025-03-09 20:32:36.6300 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 20:32:36.6300 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 20:32:36.6300 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:32:36.6300 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:32:36.6300 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:32:36.6300 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:32:36.6300 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:32:36.6300 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:32:36.6300 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:32:36.6300 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:32:36.6300 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:32:36.6300 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:32:36.6300 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:32:36.6300 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:32:36.6300 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 20:32:36.6300 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 20:32:36.6300 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 20:32:36.6300 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 20:32:36.6300 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:32:36.6300 Trace Initializing Layout Renderer: ${message}
+2025-03-09 20:32:36.6300 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:32:36.6300 Trace Initializing Layout Renderer: ${level}
+2025-03-09 20:32:36.6300 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:32:36.6300 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 20:32:36.6300 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:32:36.6300 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 20:32:36.6300 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 20:32:36.6300 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:32:36.6437 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:32:36.6437 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 20:32:36.6437 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 20:32:36.6437 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 20:32:36.6437 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 20:32:36.6437 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 20:32:36.6437 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 20:32:36.6723 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime
+2025-03-09 20:32:36.6723 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Info] => console
+2025-03-09 20:32:36.6723 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Warn] => console
+2025-03-09 20:32:36.6723 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Error] => console
+2025-03-09 20:32:36.6723 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Fatal] => console
+2025-03-09 20:32:36.6849 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.Host
+2025-03-09 20:32:36.6849 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Info] => console
+2025-03-09 20:32:36.6849 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Warn] => console
+2025-03-09 20:32:36.6849 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Error] => console
+2025-03-09 20:32:36.6849 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Fatal] => console
+2025-03-09 20:32:36.6849 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Hosting.Lifetime
+2025-03-09 20:32:36.6849 Debug Logger Microsoft.Hosting.Lifetime [Info] => console
+2025-03-09 20:32:36.6849 Debug Logger Microsoft.Hosting.Lifetime [Warn] => console
+2025-03-09 20:32:36.6849 Debug Logger Microsoft.Hosting.Lifetime [Error] => console
+2025-03-09 20:32:36.6849 Debug Logger Microsoft.Hosting.Lifetime [Fatal] => console
+2025-03-09 20:32:36.7666 Info Shutdown() called. Logger closing...
+2025-03-09 20:32:36.7666 Info Closing old configuration.
+2025-03-09 20:32:36.7666 Debug LogFactory Flush with timeout=15 secs
+2025-03-09 20:32:36.7712 Trace Flushing all 1 targets...
+2025-03-09 20:32:36.7712 Trace ForEachItemInParallel() 1 items
+2025-03-09 20:32:36.7861 Trace Continuation invoked: 
+2025-03-09 20:32:36.7861 Trace Parallel task completed. 0 items remaining
+2025-03-09 20:32:36.7861 Debug Flush completed
+2025-03-09 20:32:36.7861 Debug Closing logging configuration...
+2025-03-09 20:32:36.7861 Trace Closing ConsoleTarget(Name=console)
+2025-03-09 20:32:36.7861 Debug ConsoleTarget(Name=console): Closing...
+2025-03-09 20:32:36.7861 Debug ConsoleTarget(Name=console): Closed.
+2025-03-09 20:32:36.7861 Trace Closing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:32:36.7861 Trace Closing Layout Renderer: ${longdate}
+2025-03-09 20:32:36.7861 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:32:36.7861 Trace Closing Layout Renderer: ${level}
+2025-03-09 20:32:36.7861 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:32:36.8056 Trace Closing Layout Renderer: ${message}
+2025-03-09 20:32:36.8056 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:32:36.8056 Trace Closing Layout Renderer: ${exception}
+2025-03-09 20:32:36.8056 Debug Finished closing logging configuration.
+2025-03-09 20:32:36.8056 Info Logger has been closed down.
+2025-03-09 20:33:30.9541 Debug Message Template Auto Format enabled
+2025-03-09 20:33:31.0380 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:33:31.0380 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:33:31.0380 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:33:31.0496 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:33:31.0496 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:33:31.0496 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:33:31.0764 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:33:31.0764 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:33:31.0764 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:33:31.0836 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:33:31.0836 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:33:31.0836 Trace ParseRulesElement
+2025-03-09 20:33:31.1113 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-09 20:33:31.1227 Debug --- NLog configuration dump ---
+2025-03-09 20:33:31.1227 Debug Targets:
+2025-03-09 20:33:31.1227 Debug ConsoleTarget(Name=console)
+2025-03-09 20:33:31.1227 Debug Rules:
+2025-03-09 20:33:31.1309 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-09 20:33:31.1309 Debug --- End of NLog configuration dump ---
+2025-03-09 20:33:31.1309 Trace FindReachableObject<System.Object>:
+2025-03-09 20:33:31.1309 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 20:33:31.1309 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 20:33:31.1309 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:33:31.1445 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:33:31.1445 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:33:31.1445 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:33:31.1445 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:33:31.1445 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:33:31.1445 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:33:31.1445 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:33:31.1445 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:33:31.1445 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:33:31.1445 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:33:31.1445 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:33:31.1445 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 20:33:31.1445 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 20:33:31.1445 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 20:33:31.1591 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-09 20:33:31.1591 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-09 20:33:31.1591 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 20:33:31.1591 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:33:31.1591 Trace Initializing Layout Renderer: ${message}
+2025-03-09 20:33:31.1591 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:33:31.1591 Trace Initializing Layout Renderer: ${level}
+2025-03-09 20:33:31.1591 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:33:31.1591 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 20:33:31.1591 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:33:31.1774 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:33:31.1774 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:33:31.1774 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:33:31.1774 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:33:31.1774 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:33:31.1774 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:33:31.1774 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:33:31.1774 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:33:31.1774 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:33:31.1774 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:33:31.1774 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:33:31.1774 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 20:33:31.1774 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 20:33:31.1774 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:33:31.1774 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:33:31.1909 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 20:33:31.1909 Info Configuration initialized.
+2025-03-09 20:33:31.2107 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 20:33:31.2107 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 20:33:31.2107 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 20:33:31.2107 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 20:33:31.2107 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 20:33:31.5350 Trace Assembly 'NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2025-03-09 20:33:31.5350 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2025-03-09 20:33:31.5350 Trace Assembly 'Microsoft.Extensions.Logging, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2025-03-09 20:33:31.5350 Trace Assembly 'NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2025-03-09 20:33:31.5520 Debug Skip loading NLogLoggingConfiguration from empty config section: NLog
+2025-03-09 20:33:31.5520 Trace FindReachableObject<System.Object>:
+2025-03-09 20:33:31.5520 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 20:33:31.5520 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 20:33:31.5520 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:33:31.5520 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:33:31.5520 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:33:31.5520 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:33:31.5520 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:33:31.5520 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:33:31.5520 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:33:31.5520 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:33:31.5520 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:33:31.5520 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:33:31.5520 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:33:31.5520 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:33:31.5520 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 20:33:31.5520 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 20:33:31.5520 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 20:33:31.5520 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 20:33:31.5656 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:33:31.5656 Trace Initializing Layout Renderer: ${message}
+2025-03-09 20:33:31.5656 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:33:31.5656 Trace Initializing Layout Renderer: ${level}
+2025-03-09 20:33:31.5656 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:33:31.5656 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 20:33:31.5656 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:33:31.5656 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 20:33:31.5656 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 20:33:31.5656 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:33:31.5656 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:33:31.5656 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 20:33:31.5656 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 20:33:31.5656 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 20:33:31.5656 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 20:33:31.5656 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 20:33:31.5656 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 20:33:31.6155 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime
+2025-03-09 20:33:31.6155 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Info] => console
+2025-03-09 20:33:31.6155 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Warn] => console
+2025-03-09 20:33:31.6155 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Error] => console
+2025-03-09 20:33:31.6155 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Fatal] => console
+2025-03-09 20:33:31.6293 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.Host
+2025-03-09 20:33:31.6293 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Info] => console
+2025-03-09 20:33:31.6293 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Warn] => console
+2025-03-09 20:33:31.6293 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Error] => console
+2025-03-09 20:33:31.6293 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Fatal] => console
+2025-03-09 20:33:31.6293 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Hosting.Lifetime
+2025-03-09 20:33:31.6293 Debug Logger Microsoft.Hosting.Lifetime [Info] => console
+2025-03-09 20:33:31.6293 Debug Logger Microsoft.Hosting.Lifetime [Warn] => console
+2025-03-09 20:33:31.6293 Debug Logger Microsoft.Hosting.Lifetime [Error] => console
+2025-03-09 20:33:31.6293 Debug Logger Microsoft.Hosting.Lifetime [Fatal] => console
+2025-03-09 20:33:31.7042 Info Shutdown() called. Logger closing...
+2025-03-09 20:33:31.7042 Info Closing old configuration.
+2025-03-09 20:33:31.7062 Debug LogFactory Flush with timeout=15 secs
+2025-03-09 20:33:31.7062 Trace Flushing all 1 targets...
+2025-03-09 20:33:31.7062 Trace ForEachItemInParallel() 1 items
+2025-03-09 20:33:31.7215 Trace Continuation invoked: 
+2025-03-09 20:33:31.7215 Trace Parallel task completed. 0 items remaining
+2025-03-09 20:33:31.7215 Debug Flush completed
+2025-03-09 20:33:31.7215 Debug Closing logging configuration...
+2025-03-09 20:33:31.7215 Trace Closing ConsoleTarget(Name=console)
+2025-03-09 20:33:31.7215 Debug ConsoleTarget(Name=console): Closing...
+2025-03-09 20:33:31.7215 Debug ConsoleTarget(Name=console): Closed.
+2025-03-09 20:33:31.7215 Trace Closing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:33:31.7215 Trace Closing Layout Renderer: ${longdate}
+2025-03-09 20:33:31.7215 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:33:31.7215 Trace Closing Layout Renderer: ${level}
+2025-03-09 20:33:31.7215 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:33:31.7215 Trace Closing Layout Renderer: ${message}
+2025-03-09 20:33:31.7215 Trace Closing Layout Renderer: ${literal}
+2025-03-09 20:33:31.7215 Trace Closing Layout Renderer: ${exception}
+2025-03-09 20:33:31.7368 Debug Finished closing logging configuration.
+2025-03-09 20:33:31.7368 Info Logger has been closed down.
+2025-03-09 20:34:55.9051 Debug Message Template Auto Format enabled
+2025-03-09 20:34:56.1609 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:34:56.1609 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:34:56.1813 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:34:56.1906 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:34:56.1906 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:34:56.1906 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:34:56.2533 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:34:56.2533 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:34:56.2533 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:34:56.2726 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:34:56.2726 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-03-09 20:34:56.2726 Trace ParseRulesElement
+2025-03-09 20:34:56.3315 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-09 20:34:56.3954 Debug --- NLog configuration dump ---
+2025-03-09 20:34:56.3954 Debug Targets:
+2025-03-09 20:34:56.3954 Debug ConsoleTarget(Name=console)
+2025-03-09 20:34:56.3954 Debug Rules:
+2025-03-09 20:34:56.3954 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]
+2025-03-09 20:34:56.3954 Debug --- End of NLog configuration dump ---
+2025-03-09 20:34:56.4150 Trace FindReachableObject<System.Object>:
+2025-03-09 20:34:56.4150 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 20:34:56.4150 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 20:34:56.4150 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:34:56.4150 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:34:56.4150 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:34:56.4268 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:34:56.4268 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:34:56.4268 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:34:56.4268 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:34:56.4268 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:34:56.4268 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:34:56.4268 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:34:56.4268 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:34:56.4268 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:34:56.4268 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 20:34:56.4268 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 20:34:56.4419 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 20:34:56.4419 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-03-09 20:34:56.4596 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-03-09 20:34:56.4596 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 20:34:56.4596 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:34:56.4596 Trace Initializing Layout Renderer: ${message}
+2025-03-09 20:34:56.4596 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:34:56.4596 Trace Initializing Layout Renderer: ${level}
+2025-03-09 20:34:56.4596 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:34:56.4596 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 20:34:56.4749 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:34:56.4749 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-03-09 20:34:56.4749 Trace Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:34:56.4749 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:34:56.4749 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:34:56.4872 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:34:56.4872 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:34:56.4872 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:34:56.4872 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:34:56.4872 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:34:56.4872 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:34:56.4872 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:34:56.4872 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 20:34:56.5072 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 20:34:56.5072 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:34:56.5072 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:34:56.5072 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 20:34:56.5072 Info Configuration initialized.
+2025-03-09 20:34:56.5585 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 20:34:56.5585 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 20:34:56.5585 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 20:34:56.5585 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 20:34:56.5648 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 20:34:58.0354 Trace Assembly 'NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2025-03-09 20:34:58.0354 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2025-03-09 20:34:58.0354 Trace Assembly 'Microsoft.Extensions.Logging, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2025-03-09 20:34:58.0555 Trace Assembly 'NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2025-03-09 20:34:58.0555 Debug Skip loading NLogLoggingConfiguration from empty config section: NLog
+2025-03-09 20:34:58.0555 Trace FindReachableObject<System.Object>:
+2025-03-09 20:34:58.0555 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ console ]'
+2025-03-09 20:34:58.0648 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-03-09 20:34:58.0648 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:34:58.0648 Trace   Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:34:58.0648 Trace   Scanning SimpleLayout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}'
+2025-03-09 20:34:58.0648 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-03-09 20:34:58.0648 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-03-09 20:34:58.0648 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:34:58.0648 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-03-09 20:34:58.0648 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:34:58.0648 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-03-09 20:34:58.0648 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-03-09 20:34:58.0648 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2025-03-09 20:34:58.0648 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2025-03-09 20:34:58.0648 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-03-09 20:34:58.0648 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-03-09 20:34:58.0648 Info Validating config: TargetNames=console, ConfigItems=10, FilePath=D:\MainGreetingApp\GreetingApp_2115500077\HelloGreetingApplication\bin\Debug\net6.0\NLog.config
+2025-03-09 20:34:58.0648 Trace Initializing Layout Renderer: ${exception}
+2025-03-09 20:34:58.0648 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:34:58.0648 Trace Initializing Layout Renderer: ${message}
+2025-03-09 20:34:58.0648 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:34:58.0648 Trace Initializing Layout Renderer: ${level}
+2025-03-09 20:34:58.0648 Trace Initializing Layout Renderer: ${literal}
+2025-03-09 20:34:58.0648 Trace Initializing Layout Renderer: ${longdate}
+2025-03-09 20:34:58.0648 Trace Initializing ${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}
+2025-03-09 20:34:58.0648 Trace Initializing ConsoleTarget(Name=console)
+2025-03-09 20:34:58.0648 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-03-09 20:34:58.0648 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2025-03-09 20:34:58.0809 Trace  Scanning Property Layout '${longdate} | ${level:uppercase=true} | ${message} ${exception:format=toString}' NLog.Layouts.Layout
+2025-03-09 20:34:58.0809 Trace ConsoleTarget(Name=console) has 1 layouts
+2025-03-09 20:34:58.0809 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Program
+2025-03-09 20:34:58.0809 Debug Logger HelloGreetingApplication.Program [Info] => console
+2025-03-09 20:34:58.0809 Debug Logger HelloGreetingApplication.Program [Warn] => console
+2025-03-09 20:34:58.0809 Debug Logger HelloGreetingApplication.Program [Error] => console
+2025-03-09 20:34:58.0809 Debug Logger HelloGreetingApplication.Program [Fatal] => console
+2025-03-09 20:34:58.1231 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime
+2025-03-09 20:34:58.1231 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Info] => console
+2025-03-09 20:34:58.1231 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Warn] => console
+2025-03-09 20:34:58.1231 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Error] => console
+2025-03-09 20:34:58.1231 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Fatal] => console
+2025-03-09 20:34:58.1385 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.Host
+2025-03-09 20:34:58.1385 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Info] => console
+2025-03-09 20:34:58.1385 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Warn] => console
+2025-03-09 20:34:58.1385 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Error] => console
+2025-03-09 20:34:58.1385 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Fatal] => console
+2025-03-09 20:34:58.1385 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Hosting.Lifetime
+2025-03-09 20:34:58.1385 Debug Logger Microsoft.Hosting.Lifetime [Info] => console
+2025-03-09 20:34:58.1427 Debug Logger Microsoft.Hosting.Lifetime [Warn] => console
+2025-03-09 20:34:58.1427 Debug Logger Microsoft.Hosting.Lifetime [Error] => console
+2025-03-09 20:34:58.1427 Debug Logger Microsoft.Hosting.Lifetime [Fatal] => console
+2025-03-09 20:34:58.1819 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer
+2025-03-09 20:34:58.1819 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Info] => console
+2025-03-09 20:34:58.1819 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Warn] => console
+2025-03-09 20:34:58.1819 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Error] => console
+2025-03-09 20:34:58.1819 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Fatal] => console
+2025-03-09 20:34:58.1819 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware
+2025-03-09 20:34:58.1819 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Info] => console
+2025-03-09 20:34:58.1819 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Warn] => console
+2025-03-09 20:34:58.1819 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Error] => console
+2025-03-09 20:34:58.1819 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Fatal] => console
+2025-03-09 20:34:58.1819 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel
+2025-03-09 20:34:58.1819 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Info] => console
+2025-03-09 20:34:58.1819 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Warn] => console
+2025-03-09 20:34:58.1819 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Error] => console
+2025-03-09 20:34:58.1819 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Fatal] => console
+2025-03-09 20:34:58.1901 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Info] => console
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Warn] => console
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Error] => console
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Fatal] => console
+2025-03-09 20:34:58.1901 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Connections
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Info] => console
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Warn] => console
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Error] => console
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Fatal] => console
+2025-03-09 20:34:58.1901 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Http2
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Info] => console
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Warn] => console
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Error] => console
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Fatal] => console
+2025-03-09 20:34:58.1901 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Http3
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Info] => console
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Warn] => console
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Error] => console
+2025-03-09 20:34:58.1901 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Fatal] => console
+2025-03-09 20:34:58.2235 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication
+2025-03-09 20:34:58.2235 Debug Logger HelloGreetingApplication [Info] => console
+2025-03-09 20:34:58.2235 Debug Logger HelloGreetingApplication [Warn] => console
+2025-03-09 20:34:58.2235 Debug Logger HelloGreetingApplication [Error] => console
+2025-03-09 20:34:58.2235 Debug Logger HelloGreetingApplication [Fatal] => console
+2025-03-09 20:34:58.3351 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter
+2025-03-09 20:34:58.3351 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Info] => console
+2025-03-09 20:34:58.3351 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Warn] => console
+2025-03-09 20:34:58.3351 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Error] => console
+2025-03-09 20:34:58.3351 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Fatal] => console
+2025-03-09 20:34:58.8421 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory
+2025-03-09 20:34:58.8421 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Info] => console
+2025-03-09 20:34:58.8421 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Warn] => console
+2025-03-09 20:34:58.8421 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Error] => console
+2025-03-09 20:34:58.8421 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Fatal] => console
+2025-03-09 20:34:58.8817 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder
+2025-03-09 20:34:58.8817 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Info] => console
+2025-03-09 20:34:58.8817 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Warn] => console
+2025-03-09 20:34:58.8817 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Error] => console
+2025-03-09 20:34:58.8817 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Fatal] => console
+2025-03-09 20:34:58.8817 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+2025-03-09 20:34:58.8817 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Info] => console
+2025-03-09 20:34:58.8817 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Warn] => console
+2025-03-09 20:34:58.8817 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Error] => console
+2025-03-09 20:34:58.8817 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Fatal] => console
+2025-03-09 20:34:59.0771 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Hosting.Diagnostics
+2025-03-09 20:34:59.0771 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Info] => console
+2025-03-09 20:34:59.0771 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Warn] => console
+2025-03-09 20:34:59.0771 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Error] => console
+2025-03-09 20:34:59.0771 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Fatal] => console
+2025-03-09 20:34:59.1780 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware
+2025-03-09 20:34:59.1780 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Info] => console
+2025-03-09 20:34:59.1780 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Warn] => console
+2025-03-09 20:34:59.1780 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Error] => console
+2025-03-09 20:34:59.1780 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Fatal] => console
+2025-03-09 20:34:59.1780 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+2025-03-09 20:34:59.1780 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Info] => console
+2025-03-09 20:34:59.1898 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warn] => console
+2025-03-09 20:34:59.1898 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Error] => console
+2025-03-09 20:34:59.1898 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Fatal] => console
+2025-03-09 20:34:59.2666 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+2025-03-09 20:34:59.2666 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Info] => console
+2025-03-09 20:34:59.2678 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Warn] => console
+2025-03-09 20:34:59.2678 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Error] => console
+2025-03-09 20:34:59.2678 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Fatal] => console
+2025-03-09 20:34:59.4386 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware
+2025-03-09 20:34:59.4386 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Info] => console
+2025-03-09 20:34:59.4398 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Warn] => console
+2025-03-09 20:34:59.4398 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Error] => console
+2025-03-09 20:34:59.4398 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Fatal] => console
+2025-03-09 20:34:59.4573 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+2025-03-09 20:34:59.4573 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Info] => console
+2025-03-09 20:34:59.4573 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Warn] => console
+2025-03-09 20:34:59.4573 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] => console
+2025-03-09 20:34:59.4573 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Fatal] => console
+2025-03-09 20:34:59.4573 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware
+2025-03-09 20:34:59.4573 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Info] => console
+2025-03-09 20:34:59.4573 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Warn] => console
+2025-03-09 20:34:59.4573 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Error] => console
+2025-03-09 20:34:59.4573 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Fatal] => console
+2025-03-09 20:34:59.4573 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware
+2025-03-09 20:34:59.4573 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Info] => console
+2025-03-09 20:34:59.4573 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Warn] => console
+2025-03-09 20:34:59.4573 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Error] => console
+2025-03-09 20:34:59.4573 Debug Logger Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware [Fatal] => console
+2025-03-09 20:34:59.4979 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware
+2025-03-09 20:34:59.4979 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Info] => console
+2025-03-09 20:34:59.4979 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Warn] => console
+2025-03-09 20:34:59.4979 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Error] => console
+2025-03-09 20:34:59.4979 Debug Logger Microsoft.WebTools.BrowserLink.Net.VsContentMiddleware [Fatal] => console
+2025-03-09 20:34:59.4979 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware
+2025-03-09 20:34:59.4979 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Info] => console
+2025-03-09 20:34:59.4979 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Warn] => console
+2025-03-09 20:34:59.4979 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Error] => console
+2025-03-09 20:34:59.5029 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Fatal] => console
+2025-03-09 20:34:59.7526 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets
+2025-03-09 20:34:59.7532 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Info] => console
+2025-03-09 20:34:59.7532 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Warn] => console
+2025-03-09 20:34:59.7532 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Error] => console
+2025-03-09 20:34:59.7532 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Fatal] => console
+2025-03-09 20:35:05.3874 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher
+2025-03-09 20:35:05.3874 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Info] => console
+2025-03-09 20:35:05.3874 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Warn] => console
+2025-03-09 20:35:05.3874 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Error] => console
+2025-03-09 20:35:05.3874 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Fatal] => console
+2025-03-09 20:35:30.8210 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter
+2025-03-09 20:35:30.8210 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Info] => console
+2025-03-09 20:35:30.8210 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Warn] => console
+2025-03-09 20:35:30.8210 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Error] => console
+2025-03-09 20:35:30.8210 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Fatal] => console
+2025-03-09 20:35:30.8210 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter
+2025-03-09 20:35:30.8210 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter [Info] => console
+2025-03-09 20:35:30.8210 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter [Warn] => console
+2025-03-09 20:35:30.8210 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter [Error] => console
+2025-03-09 20:35:30.8210 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter [Fatal] => console
+2025-03-09 20:35:30.8852 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder
+2025-03-09 20:35:30.8852 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder [Info] => console
+2025-03-09 20:35:30.8852 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder [Warn] => console
+2025-03-09 20:35:30.8852 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder [Error] => console
+2025-03-09 20:35:30.8852 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder [Fatal] => console
+2025-03-09 20:35:30.9102 Debug Targets configured when LogLevel >= Info for Logger: HelloGreetingApplication.Controllers.HelloGreetingController
+2025-03-09 20:35:30.9102 Debug Logger HelloGreetingApplication.Controllers.HelloGreetingController [Info] => console
+2025-03-09 20:35:30.9102 Debug Logger HelloGreetingApplication.Controllers.HelloGreetingController [Warn] => console
+2025-03-09 20:35:30.9102 Debug Logger HelloGreetingApplication.Controllers.HelloGreetingController [Error] => console
+2025-03-09 20:35:30.9102 Debug Logger HelloGreetingApplication.Controllers.HelloGreetingController [Fatal] => console
+2025-03-09 20:35:30.9102 Debug Targets configured when LogLevel >= Info for Logger: BusinessLayer.Service.GreetingBL
+2025-03-09 20:35:30.9102 Debug Logger BusinessLayer.Service.GreetingBL [Info] => console
+2025-03-09 20:35:30.9102 Debug Logger BusinessLayer.Service.GreetingBL [Warn] => console
+2025-03-09 20:35:30.9102 Debug Logger BusinessLayer.Service.GreetingBL [Error] => console
+2025-03-09 20:35:30.9102 Debug Logger BusinessLayer.Service.GreetingBL [Fatal] => console
+2025-03-09 20:35:31.5795 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.EntityFrameworkCore.Infrastructure
+2025-03-09 20:35:31.5795 Debug Logger Microsoft.EntityFrameworkCore.Infrastructure [Info] => console
+2025-03-09 20:35:31.5801 Debug Logger Microsoft.EntityFrameworkCore.Infrastructure [Warn] => console
+2025-03-09 20:35:31.5801 Debug Logger Microsoft.EntityFrameworkCore.Infrastructure [Error] => console
+2025-03-09 20:35:31.5801 Debug Logger Microsoft.EntityFrameworkCore.Infrastructure [Fatal] => console
+2025-03-09 20:35:31.8217 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.EntityFrameworkCore.ChangeTracking
+2025-03-09 20:35:31.8217 Debug Logger Microsoft.EntityFrameworkCore.ChangeTracking [Info] => console
+2025-03-09 20:35:31.8217 Debug Logger Microsoft.EntityFrameworkCore.ChangeTracking [Warn] => console
+2025-03-09 20:35:31.8217 Debug Logger Microsoft.EntityFrameworkCore.ChangeTracking [Error] => console
+2025-03-09 20:35:31.8217 Debug Logger Microsoft.EntityFrameworkCore.ChangeTracking [Fatal] => console
+2025-03-09 20:35:31.8346 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.EntityFrameworkCore.Database.Command
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Database.Command [Info] => console
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Database.Command [Warn] => console
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Database.Command [Error] => console
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Database.Command [Fatal] => console
+2025-03-09 20:35:31.8346 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.EntityFrameworkCore.Query
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Query [Info] => console
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Query [Warn] => console
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Query [Error] => console
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Query [Fatal] => console
+2025-03-09 20:35:31.8346 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.EntityFrameworkCore.Database.Transaction
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Database.Transaction [Info] => console
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Database.Transaction [Warn] => console
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Database.Transaction [Error] => console
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Database.Transaction [Fatal] => console
+2025-03-09 20:35:31.8346 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.EntityFrameworkCore.Database.Connection
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Database.Connection [Info] => console
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Database.Connection [Warn] => console
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Database.Connection [Error] => console
+2025-03-09 20:35:31.8346 Debug Logger Microsoft.EntityFrameworkCore.Database.Connection [Fatal] => console
+2025-03-09 20:35:31.9742 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.EntityFrameworkCore.Model
+2025-03-09 20:35:31.9742 Debug Logger Microsoft.EntityFrameworkCore.Model [Info] => console
+2025-03-09 20:35:31.9742 Debug Logger Microsoft.EntityFrameworkCore.Model [Warn] => console
+2025-03-09 20:35:31.9742 Debug Logger Microsoft.EntityFrameworkCore.Model [Error] => console
+2025-03-09 20:35:31.9742 Debug Logger Microsoft.EntityFrameworkCore.Model [Fatal] => console
+2025-03-09 20:35:31.9742 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.EntityFrameworkCore.Model.Validation
+2025-03-09 20:35:31.9742 Debug Logger Microsoft.EntityFrameworkCore.Model.Validation [Info] => console
+2025-03-09 20:35:31.9742 Debug Logger Microsoft.EntityFrameworkCore.Model.Validation [Warn] => console
+2025-03-09 20:35:31.9742 Debug Logger Microsoft.EntityFrameworkCore.Model.Validation [Error] => console
+2025-03-09 20:35:31.9742 Debug Logger Microsoft.EntityFrameworkCore.Model.Validation [Fatal] => console
+2025-03-09 20:35:33.3462 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.EntityFrameworkCore.Update
+2025-03-09 20:35:33.3462 Debug Logger Microsoft.EntityFrameworkCore.Update [Info] => console
+2025-03-09 20:35:33.3462 Debug Logger Microsoft.EntityFrameworkCore.Update [Warn] => console
+2025-03-09 20:35:33.3462 Debug Logger Microsoft.EntityFrameworkCore.Update [Error] => console
+2025-03-09 20:35:33.3462 Debug Logger Microsoft.EntityFrameworkCore.Update [Fatal] => console
+2025-03-09 20:35:35.3718 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector
+2025-03-09 20:35:35.3718 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Info] => console
+2025-03-09 20:35:35.3718 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Warn] => console
+2025-03-09 20:35:35.3718 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Error] => console
+2025-03-09 20:35:35.3718 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Fatal] => console
+2025-03-09 20:35:35.3718 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+2025-03-09 20:35:35.3773 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Info] => console
+2025-03-09 20:35:35.3773 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Warn] => console
+2025-03-09 20:35:35.3773 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Error] => console
+2025-03-09 20:35:35.3773 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Fatal] => console

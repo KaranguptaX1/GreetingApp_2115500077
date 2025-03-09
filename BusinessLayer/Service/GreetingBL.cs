@@ -5,14 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using BusinessLayer.Interface;
 using Microsoft.Extensions.Logging;
+using ModelLayer.Model;
+using RepositoryLayer.Interface;
+using RepositoryLayer.Service;
 namespace BusinessLayer.Service
 {
     public class GreetingBL : IGreetingBL
     {
-        private readonly ILogger _logger;
-        public GreetingBL(ILogger<GreetingBL> logger)
+        private readonly ILogger<GreetingBL> _logger;
+        private readonly IGreetingRL _greetingRL;
+        public GreetingBL(ILogger<GreetingBL> logger, IGreetingRL greetingRL)
         {
-            _logger = logger;
+            _greetingRL = greetingRL ?? throw new ArgumentNullException(nameof(greetingRL));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
         public string SimpleGreeting()
         {
@@ -48,6 +53,18 @@ namespace BusinessLayer.Service
             else
             {
                 return "Hello, World!";
+            }
+        }
+        public string CreateGreeting(GreetingModel greeting)
+        {
+            bool result = _greetingRL.Add(greeting);
+            if (result)
+            {
+                return "Greeting Added Successfully";
+            }
+            else
+            {
+                return "Greeting Not Added";
             }
         }
     }

@@ -1,11 +1,7 @@
 .vs
 obj/
 bin/
+*.cacheobj/
+bin/
 *.cache
-obj/
-obj/
-bin/
-obj/
-bin/
-obj/
-bin/
+
